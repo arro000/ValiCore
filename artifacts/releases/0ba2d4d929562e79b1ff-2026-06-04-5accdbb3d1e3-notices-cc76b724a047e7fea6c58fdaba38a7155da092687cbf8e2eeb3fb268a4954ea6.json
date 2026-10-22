@@ -1,0 +1,85 @@
+{
+  "manifestVersion": 2,
+  "components": [
+    "fiscal",
+    "geo"
+  ],
+  "engineVersion": "0.5.0-beta.1",
+  "loaderProtocol": 2,
+  "modules": [
+    "fiscal_identity",
+    "geo_historical"
+  ],
+  "operations": [
+    "birthplaceHistory",
+    "capabilities",
+    "checksum",
+    "create",
+    "datasetInfo",
+    "decode",
+    "dispose",
+    "encode",
+    "info",
+    "listProvinces",
+    "matchesPerson",
+    "nameCode",
+    "numericChecksum",
+    "omocodes",
+    "omocodiaMask",
+    "resolvePlace",
+    "sameBase",
+    "searchPlaces",
+    "surnameCode",
+    "toBase",
+    "toOmocode",
+    "validate",
+    "validateItalianRea",
+    "validateItalianVat"
+  ],
+  "runtimeApiMajor": 8,
+  "runtimeName": "ValiCore",
+  "schemas": {
+    "geo": 1
+  },
+  "buildId": "0ba2d4d929562e79b1ff",
+  "publishedAt": "2026-10-22T15:33:41.805Z",
+  "runtimeCompositionHash": "1b4bb2ca0c2dad59e70567ddf93d66cf1a88a09ff8e22841292d65a54ab22bd0",
+  "compositionHash": "e1986f6dd02ebb348a95aa3a0aef62b065e31f410d114405a9c33ad1b6fdce8f",
+  "selection": {
+    "configVersion": 1,
+    "components": [
+      "fiscal",
+      "geo"
+    ],
+    "datasets": [
+      "geo"
+    ]
+  },
+  "runtime": {
+    "wasm": {
+      "url": "../runtime/0ba2d4d929562e79b1ff/engine.wasm",
+      "sha256": "0ba2d4d929562e79b1ffffd753154ab683312b9b57799dd73109864e9c382908",
+      "gzip": {
+        "url": "../runtime/0ba2d4d929562e79b1ff/engine.wasm.gz",
+        "sha256": "8b751d709efdff3403bc15ef10de7d742b9c03a7ef5685256611d4ef84254c66"
+      }
+    }
+  },
+  "notices": {
+    "url": "../notices/cc76b724a047e7fea6c58fdaba38a7155da092687cbf8e2eeb3fb268a4954ea6/index.json",
+    "sha256": "cc76b724a047e7fea6c58fdaba38a7155da092687cbf8e2eeb3fb268a4954ea6"
+  },
+  "datasets": {
+    "geo": {
+      "url": "../data/2026-06-04-5accdbb3d1e3/places.json",
+      "sha256": "0f8d69bcabe2e36524d2b1351a7ea5c65bf578dc60a1f9a8ee8d541793d506d2",
+      "bytes": 6368225,
+      "version": "2026-06-04-5accdbb3d1e3",
+      "schemaVersion": 1,
+      "gzip": {
+        "url": "../data/2026-06-04-5accdbb3d1e3/places.json.gz",
+        "sha256": "d70173d1bac0b577e7f749b410e0a7edc3d6fb6c11c68d702bae03d9d71b4d84"
+      }
+    }
+  }
+}
