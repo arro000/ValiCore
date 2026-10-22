@@ -87,7 +87,13 @@ def build(output, expected_platform=None, expected_architecture=None):
         for name, kind in [('test_valicore.py', 'transport'), ('test_bundled_install.py', 'bundled')]:
             test = consumer / name
             shutil.copyfile(ROOT / 'packages/python/tests' / name, test)
-            run([python, '-I', test], cwd=consumer, env=env)
+            try:
+                run([python, '-I', test], cwd=consumer, env=env)
+            finally:
+                # Do not suppress locked-DLL cleanup failures. Once the child
+                # has exited, Windows must release every fixture image mapping.
+                for directory in resources.glob('valicore-bundled-test-*'):
+                    if directory.is_dir(): shutil.rmtree(directory)
             report = json.loads((consumer / (kind + '-report.json')).read_text())
             expected_skips = 0 if kind == 'bundled' or sys.platform == 'linux' else 1  # /proc-only RSS test
             if not report['passed'] or report['skipped'] != expected_skips:

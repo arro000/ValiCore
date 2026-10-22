@@ -26,7 +26,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 40
     outputs:
       site_ready: ${{ steps.publish.outputs.site_ready }}
@@ -110,6 +110,7 @@ jobs:
       - uses: Swatinem/rust-cache@v2
         if: steps.work.outputs.verify == 'true'
       - name: Install verification dependencies
+        timeout-minutes: 15
         if: steps.work.outputs.verify == 'true'
         run: |
           npm ci
@@ -188,7 +189,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - uses: actions/deploy-pages@v4

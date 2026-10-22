@@ -45,6 +45,19 @@ def golden(version="python-golden"):
          "validFrom": None, "validTo": None, "birthAllowed": True} for code in codes]}
 
 
+@contextmanager
+def bundled_fixture_directory():
+    # Windows keeps ctypes-loaded DLL images mapped until process exit, even
+    # after every engine handle is disposed. The parent verifier owns these
+    # resource fixtures and removes them after the child process has exited.
+    directory = Path(tempfile.mkdtemp(prefix="valicore-bundled-test-", dir=ROOT))
+    try:
+        yield directory
+    finally:
+        if sys.platform != "win32":
+            shutil.rmtree(directory)
+
+
 class InstalledWrapperTests(unittest.TestCase):
     def engine(self, dataset=None):
         return create_valicore(library_path=LIBRARY, dataset=dataset)
@@ -73,7 +86,7 @@ class InstalledWrapperTests(unittest.TestCase):
 
     @contextmanager
     def bundled(self):
-        with tempfile.TemporaryDirectory(prefix="valicore-bundled-test-") as temporary:
+        with bundled_fixture_directory() as temporary:
             directory = Path(temporary)
             shutil.copyfile(LIBRARY, directory / LIBRARY.name)
             shutil.copyfile(DATASET, directory / DATASET.name)
