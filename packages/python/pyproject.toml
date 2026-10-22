@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valicore"
+version = "0.5.0b1"
+description = "Thin offline Python wrapper for the ValiCore native C ABI"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/arro000/ValiCore"
+Documentation = "https://github.com/arro000/ValiCore/blob/main/docs/PYTHON.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+valicore = ["py.typed", "bundled/*", "bundled/notices/*", "bundled/notices/crates/*/*", "bundled/notices/rust/*", "bundled/notices/rust/licenses/*"]

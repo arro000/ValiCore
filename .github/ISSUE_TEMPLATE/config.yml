@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security policy
+    url: https://github.com/arro000/ValiCore/blob/main/SECURITY.md
+    about: Read before reporting a vulnerability. Do not disclose exploitable details publicly.
+  - name: Documentation
+    url: https://github.com/arro000/ValiCore/blob/main/docs/README.md
+    about: Check scope, API contracts, historical coverage and integration instructions.

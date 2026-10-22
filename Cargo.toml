@@ -1,0 +1,26 @@
+[workspace]
+members = [
+    "crates/valicore-foundation",
+    "crates/valicore",
+    "crates/valicore-abi",
+    "crates/modules/valicore-fiscal-identity",
+    "crates/modules/valicore-geo-historical",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.5.0-beta.1"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/arro000/ValiCore"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive", "rc"] }
+serde_json = "1"
+unicode-normalization = "0.1"
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "s"
+strip = true

@@ -1,0 +1,143 @@
+name: Verify release artifacts
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: package-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.23.3'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+      - name: Require a coordinated source/tag version
+        env:
+          RELEASE_TAG: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || '' }}
+        run: python3 tools/test_release_versions.py
+      - name: Install verification prerequisites
+        run: |
+          npm ci
+          python3 -m pip install 'setuptools>=77'
+          npx playwright install --with-deps chromium
+      - name: Verify exact source and packed consumers
+        run: npm run test:extensive
+      - name: Assemble npm artifact and verification evidence
+        run: |
+          mkdir -p release
+          npm pack --workspace packages/js --pack-destination release
+          cp test-results/extensive-report.json release/verification-linux.json
+          cd release
+          sha256sum *.tgz verification-linux.json > SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-web
+          path: release/
+          if-no-files-found: error
+  native:
+    needs: verify
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { runner: ubuntu-24.04, platform: linux, arch: x64 }
+          - { runner: ubuntu-24.04-arm, platform: linux, arch: arm64 }
+          - { runner: macos-15-intel, platform: darwin, arch: x64 }
+          - { runner: macos-15, platform: darwin, arch: arm64 }
+          - { runner: windows-2022, platform: win32, arch: x64 }
+          - { runner: windows-11-arm, platform: win32, arch: arm64 }
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.23.3'
+          architecture: ${{ matrix.arch }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: ${{ matrix.arch }}
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - name: Install explicit build prerequisites
+        run: |
+          cargo fetch --locked
+          python -m pip install 'setuptools>=77'
+      - name: Build and install on the actual target
+        run: python tools/build_native_release.py --output release-native --expected-platform ${{ matrix.platform }} --expected-architecture ${{ matrix.arch }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-native-${{ matrix.platform }}-${{ matrix.arch }}
+          path: release-native/
+          if-no-files-found: error
+  draft:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: [verify, native]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: release-*
+          path: verified-artifacts
+      - name: Preserve target-local evidence without filename collisions
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json,shutil
+          source=Path('verified-artifacts');output=Path('release');output.mkdir()
+          directories=list(source.iterdir())
+          assert len(directories)==7, 'Missing web/native verification artifacts'
+          for directory in directories:
+              for line in (directory/'SHA256SUMS').read_text().splitlines():
+                  expected,name=line.split(None,1);name=name.strip()
+                  assert Path(name).name==name
+                  assert hashlib.sha256((directory/name).read_bytes()).hexdigest()==expected
+              if directory.name.startswith('release-native-'):
+                  report=json.loads((directory/'report.json').read_text())
+                  assert report['passed'] and report['fiscalCompositionPassed']
+                  assert directory.name=='release-native-'+report['platform']+'-'+report['architecture']
+                  expected=1 if report['platform']!='linux' else 0
+                  assert report['tests']['transport']['skipped']==expected and report['tests']['bundled']['skipped']==0
+                  assert len(list(directory.glob('*.zip')))==2 and len(list(directory.glob('*.whl')))==1
+              else:
+                  assert directory.name=='release-web'
+                  assert json.loads((directory/'verification-linux.json').read_text())['passed']
+                  assert len(list(directory.glob('*.tgz')))==1
+              for path in directory.iterdir():
+                  if path.name=='SHA256SUMS': continue
+                  name=directory.name+'-report.json' if path.name=='report.json' else path.name
+                  assert not (output/name).exists(), 'Artifact filename collision'
+                  shutil.copyfile(path,output/name)
+          files=sorted(output.iterdir())
+          (output/'SHA256SUMS').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in files))
+          PY
+      - name: Create only a draft prerelease after every target passed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" release/* --repo "$GITHUB_REPOSITORY" \
+            --verify-tag --draft --prerelease --title "ValiCore $RELEASE_TAG" \
+            --notes 'Verified artifact draft. Publication, source-data rights and final platform claims require owner review. No npm/PyPI publication is performed.'

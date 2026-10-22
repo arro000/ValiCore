@@ -1,0 +1,25 @@
+{
+  "description": "Supplementary display names for codes absent from the revenue-agency T2 table. Availability and municipality membership remain governed by ANPR record dates, not by this name registry.",
+  "sources": [
+    "https://www.agenziaentrate.gov.it/portale/documents/20143/448330/Tabella%2BT2%2Bsigle%2Bprovince_T2_prov_ita_17_10_2017.pdf/5a556c34-dea1-e42e-88b7-8ee8af2fa12d",
+    "https://demo.istat.it/app?a=2025&i=POS&l=it",
+    "https://www.anagrafenazionale.interno.it/wp-content/uploads/ANPR_archivio_comuni.csv"
+  ],
+  "names": {
+    "BT": "Barletta-Andria-Trani",
+    "CI": "Carbonia-Iglesias",
+    "EE": "Foreign countries",
+    "FU": "Fiume",
+    "OG": "Ogliastra",
+    "OT": "Olbia-Tempio",
+    "PL": "Pola",
+    "SU": "Sud Sardegna",
+    "VG": "Venezia Giulia",
+    "VS": "Medio Campidano",
+    "ZA": "Zara"
+  },
+  "displayOverrides": {
+    "FO": "Forlì",
+    "FC": "Forlì-Cesena"
+  }
+}

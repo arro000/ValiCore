@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-06-04-5accdbb3d1e3",
+  "snapshot": "snapshots/2026-06-04-5accdbb3d1e3.json.gz",
+  "contentHash": "5accdbb3d1e3cba9864fc355afb50d2522e3f886178ed7d73fa357058ae6cbfb",
+  "lastCheckedAt": "2026-10-06T10:35:43.075286+00:00",
+  "sources": {
+    "anpr-comuni": {
+      "url": "https://www.anagrafenazionale.interno.it/wp-content/uploads/ANPR_archivio_comuni.csv",
+      "referenceDate": "2026-06-04",
+      "sha256": "2a83f63414e43eae4ceba69b3c752d41fe8d091ff5a793fed3a5733041535530",
+      "recordCount": 19364,
+      "ETag": "\"260257-6537d8f448384\"",
+      "Last-Modified": "Fri, 05 Jun 2026 08:36:39 GMT",
+      "Content-Type": "text/csv"
+    },
+    "anpr-countries": {
+      "url": "https://www.anagrafenazionale.interno.it/wp-content/uploads/tabella_2_statiesteri.xlsx",
+      "referenceDate": "2024-01-12",
+      "sha256": "9a1843f89ad6a0f6809bee93150c2c8f4a1d92130eddfdd03657b270614b4ed6",
+      "recordCount": 238,
+      "ETag": "\"affd-60ebc31755739\"",
+      "Last-Modified": "Fri, 12 Jan 2024 09:21:46 GMT",
+      "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "ade-provinces": {
+      "url": "https://www1.agenziaentrate.gov.it/servizi/codici/ricerca/VisualizzaTabella.php?ArcName=00T2",
+      "referenceDate": null,
+      "sha256": "d6e5a76a2cb5b32323f469af156768b7f4e7420f3d9be15f2b7adcdc764013c1",
+      "recordCount": 107,
+      "ETag": null,
+      "Last-Modified": null,
+      "Content-Type": "text/html; charset=UTF-8"
+    },
+    "istat-current": {
+      "url": "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.xlsx",
+      "referenceDate": "2026-02-21",
+      "sha256": "83842076860450f7e482daecea6b7a769f5f93d0bf5b0d48802b44896d7a26d5",
+      "recordCount": 7894,
+      "ETag": "\"69a0722f-12c413:dtagent10345260810170330MNHI:dtagent10345260810170330MNHI\"",
+      "Last-Modified": "Thu, 26 Feb 2026 16:17:49 GMT",
+      "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    "istat-publication": {
+      "url": "https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/",
+      "referenceDate": "2026-02-21",
+      "sha256": "c343e772732a1e756532e33a38efabe8f5678f74f700d2b6208cf3a2c9f318a4",
+      "recordCount": 1,
+      "ETag": null,
+      "Last-Modified": null,
+      "Content-Type": "text/html; charset=UTF-8"
+    },
+    "istat-sardinia": {
+      "url": "https://www.istat.it/wp-content/uploads/2024/09/Codici-statistici-e-denominazioni-delle-unita-amministrative-della-Sardegna.zip",
+      "referenceDate": "2026-01-01",
+      "sha256": "6fb4b421a165c26ebc855d2793ef95ae1e65eceb9ea067aa51a4c3f613e503ca",
+      "recordCount": 377,
+      "ETag": "\"6890abec-7c33\"",
+      "Last-Modified": "Mon, 04 Aug 2025 12:47:40 GMT",
+      "Content-Type": "application/zip"
+    },
+    "province-supplements": {
+      "url": "https://github.com/arro000/ValiCore/blob/main/data/reference/province-supplements.json",
+      "referenceDate": null,
+      "sha256": "ae0110b0cb8a5994bcf60500fbefd6b0eb7b44c0545b4bbd9984d53ffe7b35c6",
+      "recordCount": 11,
+      "references": [
+        "https://www.agenziaentrate.gov.it/portale/documents/20143/448330/Tabella%2BT2%2Bsigle%2Bprovince_T2_prov_ita_17_10_2017.pdf/5a556c34-dea1-e42e-88b7-8ee8af2fa12d",
+        "https://demo.istat.it/app?a=2025&i=POS&l=it",
+        "https://www.anagrafenazionale.interno.it/wp-content/uploads/ANPR_archivio_comuni.csv"
+      ]
+    }
+  }
+}

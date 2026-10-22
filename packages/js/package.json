@@ -1,0 +1,23 @@
+{
+  "name": "@arro000/valicore",
+  "version": "0.5.0-beta.1",
+  "description": "ValiCore modular Rust/WASM engine for Italian fiscal codes and historical place data",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "import": "./src/index.js" },
+    "./fiscal": { "types": "./src/index.d.ts", "import": "./src/fiscal.js" },
+    "./italian": { "types": "./src/index.d.ts", "import": "./src/italian.js" },
+    "./ui": { "types": "./src/ui.d.ts", "import": "./src/ui.js" },
+    "./build": { "types": "./tooling/index.d.ts", "import": "./tooling/index.js" },
+    "./vite": { "types": "./tooling/vite.d.ts", "import": "./tooling/vite.js" },
+    "./bundled/*": "./bundled/*"
+  },
+  "bin": { "valicore-build": "./tooling/cli.js" },
+  "files": ["src", "tooling", "bundled", "README.md", "LICENSE", "DATA-NOTICE.md"],
+  "engines": { "node": ">=22" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/arro000/ValiCore", "directory": "packages/js" },
+  "publishConfig": { "access": "public" }
+}

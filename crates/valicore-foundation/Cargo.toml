@@ -1,0 +1,10 @@
+[package]
+name = "valicore-foundation"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Shared errors, strict Gregorian dates and protocol constants"
+repository.workspace = true
+
+[dependencies]
+serde.workspace = true

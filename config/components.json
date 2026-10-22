@@ -1,0 +1,17 @@
+{
+  "registryVersion": 1,
+  "runtimeApiMajor": 8,
+  "loaderProtocol": 2,
+  "components": [
+    {"id":"fiscal","module":"fiscal_identity","requires":[],"operations":["checksum","numericChecksum","nameCode","surnameCode","toBase","omocodiaMask","toOmocode","omocodes","sameBase","encode","decode","validate","matchesPerson","validateItalianVat","validateItalianRea"]},
+    {"id":"geo","module":"geo_historical","requires":[],"operations":["datasetInfo","searchPlaces","listProvinces","resolvePlace","birthplaceHistory"],"operationRequires":{"birthplaceHistory":["fiscal"]}}
+  ],
+  "commonOperations": ["info","create","dispose","capabilities"],
+  "datasets": {
+    "geo":{"component":"geo","schemaVersion":1,"requestField":"dataset"}
+  },
+  "profiles": {
+    "fiscal":["fiscal"],
+    "italian":["fiscal","geo"]
+  }
+}

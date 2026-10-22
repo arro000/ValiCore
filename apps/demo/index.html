@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Calculate and decode Italian fiscal codes. Explore the library with live tools, JavaScript and TypeScript examples." />
+    <meta name="theme-color" content="#eef5fa" />
+    <title>ValiCore — Calculate & decode</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#calculator">Skip to calculator</a>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="ValiCore home"><span class="brand-mark">VC</span><span>Vali<strong>Core</strong></span></a>
+      <nav aria-label="Main navigation"><a href="#features">Features</a><a href="#developers">Playground</a><a href="#documentation">Docs</a><a class="source-link" href="https://github.com/arro000/ValiCore" aria-label="Source code on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 8-4 4 4 4m8-8 4 4-4 4m-3-11-2 22" /></svg><span>Source</span></a></nav>
+    </header>
+    <main>
+      <section id="calculator" class="calculator" aria-labelledby="page-title">
+        <div class="hero-heading"><div><h1 id="page-title">Your Italian fiscal code.</h1><p>Calculate it from personal details. Decode the information it contains.</p></div><a class="button secondary" href="#developers">Integrate the library <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" /></svg></a></div>
+        <div class="workspace citizen-workspace">
+          <div class="workspace-bar"><nav class="tabs" aria-label="Calculator tools" role="tablist"><button role="tab" aria-selected="true" aria-controls="calculate-panel" id="calculate-tab" data-tab="calculate">Calculate</button><button role="tab" aria-selected="false" aria-controls="inspect-panel" id="inspect-tab" data-tab="inspect" tabindex="-1">Validate & decode</button></nav><span class="local-note"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /></svg> Computed in your browser</span></div>
+          <div id="runtime-status" class="runtime-status" role="status">Loading runtime and place records…</div>
+          <section id="calculate-panel" class="panel calculator-grid" role="tabpanel" aria-labelledby="calculate-tab">
+            <div class="input-pane">
+              <div class="pane-heading"><h2>Personal details</h2><button type="button" id="fill-example" class="text-button" disabled>Load example</button></div>
+              <form id="calculate-form">
+                <div class="form-grid">
+                  <label>Given name<input name="name" value="Mario" required autocomplete="given-name" maxlength="512" /></label>
+                  <label>Surname<input name="surname" value="Rossi" required autocomplete="family-name" maxlength="512" /></label>
+                  <label>Date of birth<input type="date" name="birthDate" value="1985-03-15" required /></label>
+                  <label>Encoded sex<select name="sex"><option value="M">Male (M)</option><option value="F">Female (F)</option></select></label>
+                  <label class="wide">Province of birth<input id="birth-province" name="province" required disabled placeholder="Province name or abbreviation" autocomplete="off" /><small>Available for the birth date. Use EE for foreign countries.</small></label>
+                  <label class="wide">Municipality or foreign country<input id="birthplace" name="birthplace" value="Roma" required placeholder="Type a place and choose a suggestion" autocomplete="off" /></label>
+                </div>
+                <div class="form-actions"><button class="primary" type="submit" disabled>Calculate fiscal code <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6" /></svg></button></div>
+              </form>
+            </div>
+            <div class="output-pane">
+              <div class="pane-heading"><h2>Card preview</h2><span class="small-label" id="card-state">Example details</span></div>
+              <div id="health-card" class="health-card" aria-label="Fiscal code preview, not an official health card">
+                <div class="card-heading"><span>ValiCore</span><span class="card-country">IT</span></div>
+                <div class="card-code"><span>Fiscal code</span><strong id="card-code">••••••••••••••••</strong></div>
+                <div class="card-fields"><div><span>Surname</span><strong id="card-surname">ROSSI</strong></div><div><span>Given name</span><strong id="card-name">MARIO</strong></div><div><span>Date of birth</span><strong id="card-date">1985-03-15</strong></div><div><span>Sex</span><strong id="card-sex">M</strong></div><div class="card-place"><span>Place of birth</span><strong id="card-place">ROMA</strong></div></div>
+                <div class="card-footer"><span>Health-card-inspired preview</span><span>DEMO · NOT AN OFFICIAL DOCUMENT</span></div>
+              </div>
+              <div id="calculate-result" class="result" aria-live="polite" hidden></div>
+              <p id="calculate-empty" class="empty-note">Your calculated code will appear on the card. Edit the example or enter your own details.</p>
+              <p class="context-note">A calculated code does not confirm tax-registry allocation.</p>
+            </div>
+          </section>
+          <section id="inspect-panel" class="panel calculator-grid" role="tabpanel" aria-labelledby="inspect-tab" hidden>
+            <div class="input-pane"><div class="pane-heading"><h2>Read a fiscal code</h2></div><form id="inspect-form"><div class="form-grid"><label class="wide">Fiscal code<input name="code" value="RSSMRA85C15H501R" required maxlength="32" spellcheck="false" class="mono" /></label><label>Earliest candidate year<input name="fromYear" type="number" min="1" max="9999" value="1900" required /></label><label>Latest candidate year<input name="toYear" type="number" min="1" max="9999" value="2099" required /></label></div><p class="field-note">Two year digits can match multiple centuries. Use a range to narrow the candidates.</p><button class="primary" type="submit" disabled>Validate & decode <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6" /></svg></button></form></div>
+            <div class="output-pane"><div class="pane-heading"><h2>Decoded information</h2></div><div id="inspect-result" class="result" aria-live="polite" hidden></div><div id="inspect-empty" class="empty-note"><div class="code-anatomy" aria-label="Code structure"><span>RSS<small>Surname</small></span><span>MRA<small>Name</small></span><span>85C15<small>Date & sex</small></span><span>H501<small>Place</small></span><span>R<small>Check</small></span></div><p>Validate the example to see checks, date candidates and birthplace records.</p></div><p class="context-note">Decoding returns name fragments, not full names or an identified person.</p></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="features" class="features" aria-labelledby="features-title">
+        <div class="section-heading"><h2 id="features-title">Explore what the engine can do</h2><span>Choose a feature to try it</span></div>
+        <div class="feature-list">
+          <button class="feature" data-feature="calculate"><span class="feature-title">Fiscal-code generation</span><span>Names, dates and dated birthplaces</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></button>
+          <button class="feature" data-feature="inspect"><span class="feature-title">Validation & inverse calculation</span><span>Four check levels. Explicit century candidates.</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></button>
+          <button class="feature" data-feature="omocodia"><span class="feature-title">All 128 omocodia variants</span><span>Convert, compare and recover the base code</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></button>
+          <button class="feature" data-feature="places"><span class="feature-title">Historical place archive</span><span>ANPR–ISTAT history, aliases and foreign countries</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></button>
+          <button class="feature" data-feature="selector"><span class="feature-title">Reusable place selectors</span><span>Date → province → municipality in your forms</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></button>
+          <button class="feature" data-feature="match"><span class="feature-title">Person matching</span><span>Compare every encoded component</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></button>
+          <button class="feature" data-feature="utilities"><span class="feature-title">Name rules & checksums</span><span>Accent normalization and personal/numeric check digits</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></button>
+          <a class="feature" href="#distribution-doc"><span class="feature-title">Versioned runtime & data</span><span>Online updates, pinned releases and offline bundles</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></a>
+        </div>
+      </section>
+
+      <section id="developers" class="developers" aria-labelledby="developers-title">
+        <div class="section-heading"><div><h2 id="developers-title">Integrate the library</h2><p>Try the API. Copy an example. Use the same engine in your platform.</p></div><a class="text-link" href="#documentation">API documentation <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" /></svg></a></div>
+        <div class="install-context"><a href="https://github.com/arro000/ValiCore#use-it">Build the beta package</a><span>Build locally with npm pack · Install the generated tarball</span></div>
+        <div class="install-bar"><code id="install-command">npm install ./arro000-valicore-0.5.0-beta.1.tgz</code><button type="button" class="text-button" id="copy-install">Copy command</button></div>
+        <details class="install-note"><summary>Registry installation after publication</summary><p>Once npm registry publication is enabled, use <code>npm install @arro000/valicore</code>. JavaScript and TypeScript use the same package.</p></details>
+        <div class="integration-grid">
+          <div class="workspace playground">
+            <div class="playground-header"><h3>Live playground</h3><span>Real WASM runtime</span></div>
+            <nav class="tabs playground-tabs" aria-label="Playground tools" role="tablist">
+              <button role="tab" aria-selected="true" aria-controls="omocodia-panel" id="omocodia-tab" data-tab="omocodia">Omocodia</button>
+              <button role="tab" aria-selected="false" aria-controls="places-panel" id="places-tab" data-tab="places" tabindex="-1">Place explorer</button>
+              <button role="tab" aria-selected="false" aria-controls="selector-panel" id="selector-tab" data-tab="selector" tabindex="-1">Place selector</button>
+              <button role="tab" aria-selected="false" aria-controls="match-panel" id="match-tab" data-tab="match" tabindex="-1">Person matching</button>
+              <button role="tab" aria-selected="false" aria-controls="utilities-panel" id="utilities-tab" data-tab="utilities" tabindex="-1">Name & checksum</button>
+            </nav>
+            <section id="omocodia-panel" class="panel" role="tabpanel" aria-labelledby="omocodia-tab"><form id="omocodia-form"><div class="form-grid"><label class="wide">Base or omocodic fiscal code<input name="code" value="RSSMRA85C15H501R" required maxlength="16" spellcheck="false" class="mono" /></label><label>Variant mask (0–127)<input name="mask" type="number" min="0" max="127" value="1" required /></label></div><button class="primary" type="submit" disabled>Explore variants</button></form><div id="omocodia-result" class="result" aria-live="polite" hidden></div></section>
+            <section id="places-panel" class="panel" role="tabpanel" aria-labelledby="places-tab" hidden><form id="places-form"><div class="form-grid"><label class="wide">Search<input name="query" value="Castegnero" required placeholder="Name, alias, H501 or 058091" /></label><label>Province (optional)<input name="province" placeholder="RM, VI, EE…" maxlength="3" /></label><label>Administrative date (optional)<input name="onDate" type="date" /></label><label class="checkbox wide"><input name="activeOnly" type="checkbox" /> Active records only</label></div><button class="primary" type="submit" disabled>Search the archive</button></form><div id="places-result" class="result" aria-live="polite" hidden></div></section>
+            <section id="selector-panel" class="panel" role="tabpanel" aria-labelledby="selector-tab" hidden><div class="form-grid"><label>Reference date<input id="selector-date" type="date" value="1985-03-15" /></label><label>Province<input id="selector-province" disabled placeholder="Name or abbreviation" autocomplete="off" /></label><label class="wide">Municipality or foreign country<input id="selector-municipality" value="Cattolica" placeholder="Start typing a place name" autocomplete="off" /></label></div><div class="scenario-row"><span>Try a transition</span><button type="button" data-selector-example="cattolica" disabled>Cattolica · 1993</button><button type="button" data-selector-example="olbia" disabled>Olbia · 2026</button></div><div id="selector-result" class="result" aria-live="polite" hidden></div></section>
+            <section id="match-panel" class="panel" role="tabpanel" aria-labelledby="match-tab" hidden><form id="match-form"><div class="form-grid"><label class="wide">Fiscal code<input name="code" value="RSSMRA85C15H501R" required maxlength="32" class="mono" /></label><label>Given name<input name="name" value="Mario" required maxlength="512" /></label><label>Surname<input name="surname" value="Rossi" required maxlength="512" /></label><label>Date of birth<input type="date" name="birthDate" value="1985-03-15" required /></label><label>Encoded sex<select name="sex"><option value="M">Male (M)</option><option value="F">Female (F)</option></select></label><label class="wide">Birthplace<input name="birthplace" value="Roma" required /></label></div><button class="primary" type="submit" disabled>Compare person</button></form><div id="match-result" class="result" aria-live="polite" hidden></div><p class="context-note">Matching encoded components is not proof of identity.</p></section>
+            <section id="utilities-panel" class="panel" role="tabpanel" aria-labelledby="utilities-tab" hidden><form id="utilities-form"><div class="form-grid"><label class="wide">Operation<select name="operation"><option value="nameCode">Given-name code</option><option value="surnameCode">Surname code</option><option value="checksum">Personal checksum (15 characters)</option><option value="numericChecksum">Numeric checksum (10 digits)</option></select></label><label class="wide">Input<input name="value" value="Gianfranco" required maxlength="512" /></label></div><button class="primary" type="submit" disabled>Run operation</button></form><div id="utilities-result" class="result" aria-live="polite" hidden></div></section>
+          </div>
+          <section class="code-workspace" aria-labelledby="examples-title"><div class="code-header"><h3 id="examples-title">Integration example</h3><button type="button" class="text-button" id="copy-example">Copy code</button></div><div class="code-controls"><label class="sr-only" for="example-operation">Example operation</label><select id="example-operation"><option value="calculate">Calculate</option><option value="inspect">Validate & decode</option><option value="omocodia" selected>Omocodia</option><option value="places">Place explorer</option><option value="selector">Place selector</option><option value="match">Person matching</option><option value="utilities">Name & checksum</option><option value="distribution">Runtime & data</option></select><div class="language-switch" role="group" aria-label="Example language"><button type="button" data-language="js" aria-pressed="true">JavaScript</button><button type="button" data-language="ts" aria-pressed="false">TypeScript</button></div></div><pre tabindex="0" aria-label="Copyable integration code"><code id="example-code"></code></pre><p class="code-footnote">Browser & Node.js · ESM · TypeScript types included</p><div class="example-feedback sr-only" aria-live="polite" id="copy-feedback"></div></section>
+        </div>
+      </section>
+
+      <section id="documentation" class="documentation" aria-labelledby="docs-title">
+        <div class="section-heading"><h2 id="docs-title">Documentation</h2><a class="text-link" href="https://github.com/arro000/ValiCore#use-it">GitHub documentation <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" /></svg></a></div>
+        <div class="docs-grid"><div class="api-reference"><h3>API quick reference</h3><dl><div><dt><code>encode(person)</code></dt><dd>Resolve a dated birthplace and generate a code.</dd></div><div><dt><code>validate(code, options)</code></dt><dd>Structure, checksum, calendar and territory checks.</dd></div><div><dt><code>decode(code, { yearRange })</code></dt><dd>Name fragments, date candidates, sex and historical places.</dd></div><div><dt><code>matchesPerson(code, person)</code></dt><dd>Compare encoded components; return mismatch fields.</dd></div><div><dt><code>omocodes(code) / toBase(code)</code></dt><dd>All 128 variants and their shared base.</dd></div><div><dt><code>searchPlaces() / listProvinces()</code></dt><dd>Names, aliases and codes with dated filters.</dd></div><div><dt><code>attachPlaceSelector(options)</code></dt><dd>Connect native date, province and municipality fields.</dd></div><div><dt><code>dispose()</code></dt><dd>Release the engine; dispose selectors before their engine.</dd></div></dl></div>
+        <div class="doc-topics"><details open><summary>Quick start</summary><p>Initialize once with <code>await createValiCore()</code>. Reuse the engine for synchronous calls. Dates are Gregorian <code>YYYY-MM-DD</code> strings, with no timezone conversion.</p><p>Use <code>birthplace: { name: 'Roma', province: 'RM' }</code>, a Belfiore code, or an ISTAT code. Generation resolves the place against the birth date.</p></details><details><summary>Validation & inverse results</summary><p><code>valid</code> can be <code>true</code>, <code>false</code> or <code>null</code> (indeterminate). Levels are structural, checksum, calendar and territorial. Inspect each check, rather than treating missing catalog data as invalid allocation.</p><p>Decoding cannot recover full names. A year range narrows date candidates; returned place records preserve history rather than selecting a current province.</p></details><details id="distribution-doc"><summary>Runtime, data & offline use</summary><p><code>online</code> uses compatible versioned runtime/data releases with cache and optional fallback. <code>bundled</code> works offline; <code>pinned</code> fixes a manifest; <code>custom</code> accepts your runtime and dataset.</p><p>Call <code>versionInfo()</code> and <code>datasetInfo()</code> to inspect versions, origins and coverage.</p><button type="button" class="text-button" data-show-example="distribution">Show distribution example</button></details><details><summary>Place selector lifecycle</summary><p>Import <code>attachPlaceSelector</code> from the <code>/ui</code> entry point. It supports native inputs and province selects. Call <code>refresh()</code> after programmatic changes and <code>dispose()</code> when removing the fields.</p></details><details><summary>Sources & reconciliation</summary><p id="source-summary">Loading source comparison…</p><p>Administrative dates are distinct from fiscal allocation dates. Source disagreements remain explicit.</p><a id="dataset-source">View dataset and reconciliation evidence</a></details><details><summary>Core, ABI & correctness tests</summary><p>One Rust core powers WASM and the native C ABI. The extensive suite checks generation/inversion across a 400-year Gregorian cycle, independent reference vectors, all omocodia masks and full-catalog boundaries.</p><a href="https://github.com/arro000/ValiCore/blob/main/docs/TESTING.md">Test coverage</a><span class="link-divider"> / </span><a href="https://github.com/arro000/ValiCore/blob/main/docs/ABI.md">Native ABI contract</a></details></div></div>
+      </section>
+    </main>
+    <footer><span>ValiCore · MIT licensed code</span><span id="footer-version">Initializing…</span></footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

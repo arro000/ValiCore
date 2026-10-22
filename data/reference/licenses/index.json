@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-10-21",
+  "purpose": "Source permission evidence, not a relicensing of third-party material or legal advice",
+  "evidence": [
+    {
+      "provider": "Ministero dell'Interno / ANPR",
+      "url": "https://www.anagrafenazionale.interno.it/note-legali/",
+      "file": "anpr-legal-7d9a339a07d3ac71fb0948debbef638a22511519a8ac91db6f2fe6819a3cb9d4.html.gz",
+      "decodedSha256": "7d9a339a07d3ac71fb0948debbef638a22511519a8ac91db6f2fe6819a3cb9d4",
+      "finding": "Site notice states CC-BY-4.0 unless otherwise specified; third-party exceptions remain applicable. The separate Numeri CC0 exception is not applied to geographic tables."
+    },
+    {
+      "provider": "Istat",
+      "url": "https://www.istat.it/note-legali/",
+      "file": "istat-license-5008c23f0175432116cfd79cd31aeaad49844e83ac42deed9d42372d25c90bc5.html.gz",
+      "decodedSha256": "5008c23f0175432116cfd79cd31aeaad49844e83ac42deed9d42372d25c90bc5",
+      "finding": "Archived CC-BY-4.0 site statement reverified by hash; live legal URL returned HTTP 403 during this review. Source-specific exceptions still require review."
+    },
+    {
+      "provider": "Agenzia delle Entrate",
+      "url": "https://www.agenziaentrate.gov.it/portale/web/guest/privacy",
+      "file": "ade-legal-d9e94bb144fec325cb860f698d8cbbc8577958f616bb7886604fd6802e018a32.html.gz",
+      "decodedSha256": "d9e94bb144fec325cb860f698d8cbbc8577958f616bb7886604fd6802e018a32",
+      "finding": "Privacy/cookie page does not establish a dataset redistribution grant. T2/publication reuse terms remain pending."
+    }
+  ]
+}

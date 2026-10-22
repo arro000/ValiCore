@@ -1,0 +1,4390 @@
+{
+  "reference": "Registro Imprese CF/PIVA/REA description; FatturaPA 1.4 ProvinciaType",
+  "scope": "presentation_format_only_not_registry_allocation",
+  "seed": 20261006,
+  "oracle": "full-match ASCII regex and capture groups",
+  "valid": [
+    {
+      "input": "AA-11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+      "rea": "AA-11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+      "provinceCode": "AA",
+      "serialNumber": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+    },
+    {
+      "input": "AC-617543115497",
+      "rea": "AC-617543115497",
+      "provinceCode": "AC",
+      "serialNumber": "617543115497"
+    },
+    {
+      "input": "AD-689443276908",
+      "rea": "AD-689443276908",
+      "provinceCode": "AD",
+      "serialNumber": "689443276908"
+    },
+    {
+      "input": "AE-9052638480",
+      "rea": "AE-9052638480",
+      "provinceCode": "AE",
+      "serialNumber": "9052638480"
+    },
+    {
+      "input": "AF-86399689945",
+      "rea": "AF-86399689945",
+      "provinceCode": "AF",
+      "serialNumber": "86399689945"
+    },
+    {
+      "input": "AI-90218279925",
+      "rea": "AI-90218279925",
+      "provinceCode": "AI",
+      "serialNumber": "90218279925"
+    },
+    {
+      "input": "AJ-148170575301",
+      "rea": "AJ-148170575301",
+      "provinceCode": "AJ",
+      "serialNumber": "148170575301"
+    },
+    {
+      "input": "AK-180938649931",
+      "rea": "AK-180938649931",
+      "provinceCode": "AK",
+      "serialNumber": "180938649931"
+    },
+    {
+      "input": "AM-479795776951",
+      "rea": "AM-479795776951",
+      "provinceCode": "AM",
+      "serialNumber": "479795776951"
+    },
+    {
+      "input": "AN-134316683757",
+      "rea": "AN-134316683757",
+      "provinceCode": "AN",
+      "serialNumber": "134316683757"
+    },
+    {
+      "input": "AP-394800379770",
+      "rea": "AP-394800379770",
+      "provinceCode": "AP",
+      "serialNumber": "394800379770"
+    },
+    {
+      "input": "AQ-558511061532",
+      "rea": "AQ-558511061532",
+      "provinceCode": "AQ",
+      "serialNumber": "558511061532"
+    },
+    {
+      "input": "AS-230446043297",
+      "rea": "AS-230446043297",
+      "provinceCode": "AS",
+      "serialNumber": "230446043297"
+    },
+    {
+      "input": "AT-547225181225",
+      "rea": "AT-547225181225",
+      "provinceCode": "AT",
+      "serialNumber": "547225181225"
+    },
+    {
+      "input": "AU-468325179286",
+      "rea": "AU-468325179286",
+      "provinceCode": "AU",
+      "serialNumber": "468325179286"
+    },
+    {
+      "input": "AY-547896811220",
+      "rea": "AY-547896811220",
+      "provinceCode": "AY",
+      "serialNumber": "547896811220"
+    },
+    {
+      "input": "AZ-981629789808",
+      "rea": "AZ-981629789808",
+      "provinceCode": "AZ",
+      "serialNumber": "981629789808"
+    },
+    {
+      "input": "BA-507286067360",
+      "rea": "BA-507286067360",
+      "provinceCode": "BA",
+      "serialNumber": "507286067360"
+    },
+    {
+      "input": "BB-118231115262",
+      "rea": "BB-118231115262",
+      "provinceCode": "BB",
+      "serialNumber": "118231115262"
+    },
+    {
+      "input": "BE-996744110545",
+      "rea": "BE-996744110545",
+      "provinceCode": "BE",
+      "serialNumber": "996744110545"
+    },
+    {
+      "input": "BF-488546503171",
+      "rea": "BF-488546503171",
+      "provinceCode": "BF",
+      "serialNumber": "488546503171"
+    },
+    {
+      "input": "BG-195276334709",
+      "rea": "BG-195276334709",
+      "provinceCode": "BG",
+      "serialNumber": "195276334709"
+    },
+    {
+      "input": "BH-281790476227",
+      "rea": "BH-281790476227",
+      "provinceCode": "BH",
+      "serialNumber": "281790476227"
+    },
+    {
+      "input": "BI-981920816416",
+      "rea": "BI-981920816416",
+      "provinceCode": "BI",
+      "serialNumber": "981920816416"
+    },
+    {
+      "input": "BJ-779169770550",
+      "rea": "BJ-779169770550",
+      "provinceCode": "BJ",
+      "serialNumber": "779169770550"
+    },
+    {
+      "input": "BK-863386807900",
+      "rea": "BK-863386807900",
+      "provinceCode": "BK",
+      "serialNumber": "863386807900"
+    },
+    {
+      "input": "BM-126150703978",
+      "rea": "BM-126150703978",
+      "provinceCode": "BM",
+      "serialNumber": "126150703978"
+    },
+    {
+      "input": "BQ-534350582599",
+      "rea": "BQ-534350582599",
+      "provinceCode": "BQ",
+      "serialNumber": "534350582599"
+    },
+    {
+      "input": "BU-486236063403",
+      "rea": "BU-486236063403",
+      "provinceCode": "BU",
+      "serialNumber": "486236063403"
+    },
+    {
+      "input": "BV-608114059319",
+      "rea": "BV-608114059319",
+      "provinceCode": "BV",
+      "serialNumber": "608114059319"
+    },
+    {
+      "input": "BW-729710625724",
+      "rea": "BW-729710625724",
+      "provinceCode": "BW",
+      "serialNumber": "729710625724"
+    },
+    {
+      "input": "CD-483443906022",
+      "rea": "CD-483443906022",
+      "provinceCode": "CD",
+      "serialNumber": "483443906022"
+    },
+    {
+      "input": "CF-801848044269",
+      "rea": "CF-801848044269",
+      "provinceCode": "CF",
+      "serialNumber": "801848044269"
+    },
+    {
+      "input": "CG-14208872462",
+      "rea": "CG-14208872462",
+      "provinceCode": "CG",
+      "serialNumber": "14208872462"
+    },
+    {
+      "input": "CL-771522923138",
+      "rea": "CL-771522923138",
+      "provinceCode": "CL",
+      "serialNumber": "771522923138"
+    },
+    {
+      "input": "CM-998713311277",
+      "rea": "CM-998713311277",
+      "provinceCode": "CM",
+      "serialNumber": "998713311277"
+    },
+    {
+      "input": "CN-929431367424",
+      "rea": "CN-929431367424",
+      "provinceCode": "CN",
+      "serialNumber": "929431367424"
+    },
+    {
+      "input": "CO-795340519677",
+      "rea": "CO-795340519677",
+      "provinceCode": "CO",
+      "serialNumber": "795340519677"
+    },
+    {
+      "input": "CS-382147227528",
+      "rea": "CS-382147227528",
+      "provinceCode": "CS",
+      "serialNumber": "382147227528"
+    },
+    {
+      "input": "CT-998257062758",
+      "rea": "CT-998257062758",
+      "provinceCode": "CT",
+      "serialNumber": "998257062758"
+    },
+    {
+      "input": "CU-586808028970",
+      "rea": "CU-586808028970",
+      "provinceCode": "CU",
+      "serialNumber": "586808028970"
+    },
+    {
+      "input": "CX-533787854711",
+      "rea": "CX-533787854711",
+      "provinceCode": "CX",
+      "serialNumber": "533787854711"
+    },
+    {
+      "input": "CY-769917679652",
+      "rea": "CY-769917679652",
+      "provinceCode": "CY",
+      "serialNumber": "769917679652"
+    },
+    {
+      "input": "DA-289556294415",
+      "rea": "DA-289556294415",
+      "provinceCode": "DA",
+      "serialNumber": "289556294415"
+    },
+    {
+      "input": "DC-984706788060",
+      "rea": "DC-984706788060",
+      "provinceCode": "DC",
+      "serialNumber": "984706788060"
+    },
+    {
+      "input": "DD-990014290762",
+      "rea": "DD-990014290762",
+      "provinceCode": "DD",
+      "serialNumber": "990014290762"
+    },
+    {
+      "input": "DE-257636330749",
+      "rea": "DE-257636330749",
+      "provinceCode": "DE",
+      "serialNumber": "257636330749"
+    },
+    {
+      "input": "DF-515350992446",
+      "rea": "DF-515350992446",
+      "provinceCode": "DF",
+      "serialNumber": "515350992446"
+    },
+    {
+      "input": "DI-418450069738",
+      "rea": "DI-418450069738",
+      "provinceCode": "DI",
+      "serialNumber": "418450069738"
+    },
+    {
+      "input": "DJ-506810466837",
+      "rea": "DJ-506810466837",
+      "provinceCode": "DJ",
+      "serialNumber": "506810466837"
+    },
+    {
+      "input": "DK-496711504260",
+      "rea": "DK-496711504260",
+      "provinceCode": "DK",
+      "serialNumber": "496711504260"
+    },
+    {
+      "input": "DL-844860965356",
+      "rea": "DL-844860965356",
+      "provinceCode": "DL",
+      "serialNumber": "844860965356"
+    },
+    {
+      "input": "DM-795921083298",
+      "rea": "DM-795921083298",
+      "provinceCode": "DM",
+      "serialNumber": "795921083298"
+    },
+    {
+      "input": "DO-756800213293",
+      "rea": "DO-756800213293",
+      "provinceCode": "DO",
+      "serialNumber": "756800213293"
+    },
+    {
+      "input": "DP-84099110317",
+      "rea": "DP-84099110317",
+      "provinceCode": "DP",
+      "serialNumber": "84099110317"
+    },
+    {
+      "input": "DQ-165475171551",
+      "rea": "DQ-165475171551",
+      "provinceCode": "DQ",
+      "serialNumber": "165475171551"
+    },
+    {
+      "input": "DS-438866492788",
+      "rea": "DS-438866492788",
+      "provinceCode": "DS",
+      "serialNumber": "438866492788"
+    },
+    {
+      "input": "DT-631394253154",
+      "rea": "DT-631394253154",
+      "provinceCode": "DT",
+      "serialNumber": "631394253154"
+    },
+    {
+      "input": "DU-984589200575",
+      "rea": "DU-984589200575",
+      "provinceCode": "DU",
+      "serialNumber": "984589200575"
+    },
+    {
+      "input": "DV-412814827766",
+      "rea": "DV-412814827766",
+      "provinceCode": "DV",
+      "serialNumber": "412814827766"
+    },
+    {
+      "input": "DW-466480327126",
+      "rea": "DW-466480327126",
+      "provinceCode": "DW",
+      "serialNumber": "466480327126"
+    },
+    {
+      "input": "DX-580777742462",
+      "rea": "DX-580777742462",
+      "provinceCode": "DX",
+      "serialNumber": "580777742462"
+    },
+    {
+      "input": "DY-484397870096",
+      "rea": "DY-484397870096",
+      "provinceCode": "DY",
+      "serialNumber": "484397870096"
+    },
+    {
+      "input": "DZ-559601732600",
+      "rea": "DZ-559601732600",
+      "provinceCode": "DZ",
+      "serialNumber": "559601732600"
+    },
+    {
+      "input": "ED-810890674707",
+      "rea": "ED-810890674707",
+      "provinceCode": "ED",
+      "serialNumber": "810890674707"
+    },
+    {
+      "input": "EF-592825789904",
+      "rea": "EF-592825789904",
+      "provinceCode": "EF",
+      "serialNumber": "592825789904"
+    },
+    {
+      "input": "EH-789841798714",
+      "rea": "EH-789841798714",
+      "provinceCode": "EH",
+      "serialNumber": "789841798714"
+    },
+    {
+      "input": "EI-735315420064",
+      "rea": "EI-735315420064",
+      "provinceCode": "EI",
+      "serialNumber": "735315420064"
+    },
+    {
+      "input": "EL-919699648217",
+      "rea": "EL-919699648217",
+      "provinceCode": "EL",
+      "serialNumber": "919699648217"
+    },
+    {
+      "input": "EM-581247875966",
+      "rea": "EM-581247875966",
+      "provinceCode": "EM",
+      "serialNumber": "581247875966"
+    },
+    {
+      "input": "EN-518222269142",
+      "rea": "EN-518222269142",
+      "provinceCode": "EN",
+      "serialNumber": "518222269142"
+    },
+    {
+      "input": "EP-944188514354",
+      "rea": "EP-944188514354",
+      "provinceCode": "EP",
+      "serialNumber": "944188514354"
+    },
+    {
+      "input": "ER-544743876633",
+      "rea": "ER-544743876633",
+      "provinceCode": "ER",
+      "serialNumber": "544743876633"
+    },
+    {
+      "input": "EV-489635792388",
+      "rea": "EV-489635792388",
+      "provinceCode": "EV",
+      "serialNumber": "489635792388"
+    },
+    {
+      "input": "EW-110752680463",
+      "rea": "EW-110752680463",
+      "provinceCode": "EW",
+      "serialNumber": "110752680463"
+    },
+    {
+      "input": "EY-671332058514",
+      "rea": "EY-671332058514",
+      "provinceCode": "EY",
+      "serialNumber": "671332058514"
+    },
+    {
+      "input": "EZ-83782208577",
+      "rea": "EZ-83782208577",
+      "provinceCode": "EZ",
+      "serialNumber": "83782208577"
+    },
+    {
+      "input": "FB-953208037670",
+      "rea": "FB-953208037670",
+      "provinceCode": "FB",
+      "serialNumber": "953208037670"
+    },
+    {
+      "input": "FD-783343103953",
+      "rea": "FD-783343103953",
+      "provinceCode": "FD",
+      "serialNumber": "783343103953"
+    },
+    {
+      "input": "FE-856176875552",
+      "rea": "FE-856176875552",
+      "provinceCode": "FE",
+      "serialNumber": "856176875552"
+    },
+    {
+      "input": "FF-580495201681",
+      "rea": "FF-580495201681",
+      "provinceCode": "FF",
+      "serialNumber": "580495201681"
+    },
+    {
+      "input": "FK-802384925764",
+      "rea": "FK-802384925764",
+      "provinceCode": "FK",
+      "serialNumber": "802384925764"
+    },
+    {
+      "input": "FM-575937726659",
+      "rea": "FM-575937726659",
+      "provinceCode": "FM",
+      "serialNumber": "575937726659"
+    },
+    {
+      "input": "FN-730490202829",
+      "rea": "FN-730490202829",
+      "provinceCode": "FN",
+      "serialNumber": "730490202829"
+    },
+    {
+      "input": "FO-36264187792",
+      "rea": "FO-36264187792",
+      "provinceCode": "FO",
+      "serialNumber": "36264187792"
+    },
+    {
+      "input": "FQ-366905283724",
+      "rea": "FQ-366905283724",
+      "provinceCode": "FQ",
+      "serialNumber": "366905283724"
+    },
+    {
+      "input": "FU-384592386428",
+      "rea": "FU-384592386428",
+      "provinceCode": "FU",
+      "serialNumber": "384592386428"
+    },
+    {
+      "input": "FW-505858127371",
+      "rea": "FW-505858127371",
+      "provinceCode": "FW",
+      "serialNumber": "505858127371"
+    },
+    {
+      "input": "FZ-499550146551",
+      "rea": "FZ-499550146551",
+      "provinceCode": "FZ",
+      "serialNumber": "499550146551"
+    },
+    {
+      "input": "GD-85241365708",
+      "rea": "GD-85241365708",
+      "provinceCode": "GD",
+      "serialNumber": "85241365708"
+    },
+    {
+      "input": "GE-292916188164",
+      "rea": "GE-292916188164",
+      "provinceCode": "GE",
+      "serialNumber": "292916188164"
+    },
+    {
+      "input": "GF-35801573168",
+      "rea": "GF-35801573168",
+      "provinceCode": "GF",
+      "serialNumber": "35801573168"
+    },
+    {
+      "input": "GI-931704931604",
+      "rea": "GI-931704931604",
+      "provinceCode": "GI",
+      "serialNumber": "931704931604"
+    },
+    {
+      "input": "GJ-917523690045",
+      "rea": "GJ-917523690045",
+      "provinceCode": "GJ",
+      "serialNumber": "917523690045"
+    },
+    {
+      "input": "GK-214781420994",
+      "rea": "GK-214781420994",
+      "provinceCode": "GK",
+      "serialNumber": "214781420994"
+    },
+    {
+      "input": "GL-134228669859",
+      "rea": "GL-134228669859",
+      "provinceCode": "GL",
+      "serialNumber": "134228669859"
+    },
+    {
+      "input": "GM-68531477493",
+      "rea": "GM-68531477493",
+      "provinceCode": "GM",
+      "serialNumber": "68531477493"
+    },
+    {
+      "input": "GN-143366161341",
+      "rea": "GN-143366161341",
+      "provinceCode": "GN",
+      "serialNumber": "143366161341"
+    },
+    {
+      "input": "GO-932511303152",
+      "rea": "GO-932511303152",
+      "provinceCode": "GO",
+      "serialNumber": "932511303152"
+    },
+    {
+      "input": "GR-787632759170",
+      "rea": "GR-787632759170",
+      "provinceCode": "GR",
+      "serialNumber": "787632759170"
+    },
+    {
+      "input": "GT-260326857864",
+      "rea": "GT-260326857864",
+      "provinceCode": "GT",
+      "serialNumber": "260326857864"
+    },
+    {
+      "input": "GU-837729080293",
+      "rea": "GU-837729080293",
+      "provinceCode": "GU",
+      "serialNumber": "837729080293"
+    },
+    {
+      "input": "GW-656979984511",
+      "rea": "GW-656979984511",
+      "provinceCode": "GW",
+      "serialNumber": "656979984511"
+    },
+    {
+      "input": "GX-288281601247",
+      "rea": "GX-288281601247",
+      "provinceCode": "GX",
+      "serialNumber": "288281601247"
+    },
+    {
+      "input": "HB-546125803675",
+      "rea": "HB-546125803675",
+      "provinceCode": "HB",
+      "serialNumber": "546125803675"
+    },
+    {
+      "input": "HC-297431535371",
+      "rea": "HC-297431535371",
+      "provinceCode": "HC",
+      "serialNumber": "297431535371"
+    },
+    {
+      "input": "HD-69142155106",
+      "rea": "HD-69142155106",
+      "provinceCode": "HD",
+      "serialNumber": "69142155106"
+    },
+    {
+      "input": "HH-718755671782",
+      "rea": "HH-718755671782",
+      "provinceCode": "HH",
+      "serialNumber": "718755671782"
+    },
+    {
+      "input": "HI-828133656244",
+      "rea": "HI-828133656244",
+      "provinceCode": "HI",
+      "serialNumber": "828133656244"
+    },
+    {
+      "input": "HL-545200364387",
+      "rea": "HL-545200364387",
+      "provinceCode": "HL",
+      "serialNumber": "545200364387"
+    },
+    {
+      "input": "HM-163365007203",
+      "rea": "HM-163365007203",
+      "provinceCode": "HM",
+      "serialNumber": "163365007203"
+    },
+    {
+      "input": "HN-573497916861",
+      "rea": "HN-573497916861",
+      "provinceCode": "HN",
+      "serialNumber": "573497916861"
+    },
+    {
+      "input": "HO-247522297877",
+      "rea": "HO-247522297877",
+      "provinceCode": "HO",
+      "serialNumber": "247522297877"
+    },
+    {
+      "input": "HP-843740451099",
+      "rea": "HP-843740451099",
+      "provinceCode": "HP",
+      "serialNumber": "843740451099"
+    },
+    {
+      "input": "HQ-933704653037",
+      "rea": "HQ-933704653037",
+      "provinceCode": "HQ",
+      "serialNumber": "933704653037"
+    },
+    {
+      "input": "HU-422396921135",
+      "rea": "HU-422396921135",
+      "provinceCode": "HU",
+      "serialNumber": "422396921135"
+    },
+    {
+      "input": "HX-440703632357",
+      "rea": "HX-440703632357",
+      "provinceCode": "HX",
+      "serialNumber": "440703632357"
+    },
+    {
+      "input": "IA-183979650568",
+      "rea": "IA-183979650568",
+      "provinceCode": "IA",
+      "serialNumber": "183979650568"
+    },
+    {
+      "input": "IC-90781222829",
+      "rea": "IC-90781222829",
+      "provinceCode": "IC",
+      "serialNumber": "90781222829"
+    },
+    {
+      "input": "ID-983930478905",
+      "rea": "ID-983930478905",
+      "provinceCode": "ID",
+      "serialNumber": "983930478905"
+    },
+    {
+      "input": "IE-164729253511",
+      "rea": "IE-164729253511",
+      "provinceCode": "IE",
+      "serialNumber": "164729253511"
+    },
+    {
+      "input": "IG-944150531884",
+      "rea": "IG-944150531884",
+      "provinceCode": "IG",
+      "serialNumber": "944150531884"
+    },
+    {
+      "input": "II-440105388387",
+      "rea": "II-440105388387",
+      "provinceCode": "II",
+      "serialNumber": "440105388387"
+    },
+    {
+      "input": "IK-103723715774",
+      "rea": "IK-103723715774",
+      "provinceCode": "IK",
+      "serialNumber": "103723715774"
+    },
+    {
+      "input": "IP-652844837435",
+      "rea": "IP-652844837435",
+      "provinceCode": "IP",
+      "serialNumber": "652844837435"
+    },
+    {
+      "input": "IR-33560998000",
+      "rea": "IR-33560998000",
+      "provinceCode": "IR",
+      "serialNumber": "33560998000"
+    },
+    {
+      "input": "IT-162207509911",
+      "rea": "IT-162207509911",
+      "provinceCode": "IT",
+      "serialNumber": "162207509911"
+    },
+    {
+      "input": "IU-542193925748",
+      "rea": "IU-542193925748",
+      "provinceCode": "IU",
+      "serialNumber": "542193925748"
+    },
+    {
+      "input": "IW-885440855387",
+      "rea": "IW-885440855387",
+      "provinceCode": "IW",
+      "serialNumber": "885440855387"
+    },
+    {
+      "input": "IX-431133768889",
+      "rea": "IX-431133768889",
+      "provinceCode": "IX",
+      "serialNumber": "431133768889"
+    },
+    {
+      "input": "IY-164881635484",
+      "rea": "IY-164881635484",
+      "provinceCode": "IY",
+      "serialNumber": "164881635484"
+    },
+    {
+      "input": "JC-458942831776",
+      "rea": "JC-458942831776",
+      "provinceCode": "JC",
+      "serialNumber": "458942831776"
+    },
+    {
+      "input": "JD-891019913373",
+      "rea": "JD-891019913373",
+      "provinceCode": "JD",
+      "serialNumber": "891019913373"
+    },
+    {
+      "input": "JE-217278047707",
+      "rea": "JE-217278047707",
+      "provinceCode": "JE",
+      "serialNumber": "217278047707"
+    },
+    {
+      "input": "JF-845344835803",
+      "rea": "JF-845344835803",
+      "provinceCode": "JF",
+      "serialNumber": "845344835803"
+    },
+    {
+      "input": "JG-231611826602",
+      "rea": "JG-231611826602",
+      "provinceCode": "JG",
+      "serialNumber": "231611826602"
+    },
+    {
+      "input": "JH-641541590746",
+      "rea": "JH-641541590746",
+      "provinceCode": "JH",
+      "serialNumber": "641541590746"
+    },
+    {
+      "input": "JL-908461826310",
+      "rea": "JL-908461826310",
+      "provinceCode": "JL",
+      "serialNumber": "908461826310"
+    },
+    {
+      "input": "JO-967480051368",
+      "rea": "JO-967480051368",
+      "provinceCode": "JO",
+      "serialNumber": "967480051368"
+    },
+    {
+      "input": "JP-656848522867",
+      "rea": "JP-656848522867",
+      "provinceCode": "JP",
+      "serialNumber": "656848522867"
+    },
+    {
+      "input": "JR-878032456619",
+      "rea": "JR-878032456619",
+      "provinceCode": "JR",
+      "serialNumber": "878032456619"
+    },
+    {
+      "input": "JS-703917037632",
+      "rea": "JS-703917037632",
+      "provinceCode": "JS",
+      "serialNumber": "703917037632"
+    },
+    {
+      "input": "JW-59543286125",
+      "rea": "JW-59543286125",
+      "provinceCode": "JW",
+      "serialNumber": "59543286125"
+    },
+    {
+      "input": "JX-947227950151",
+      "rea": "JX-947227950151",
+      "provinceCode": "JX",
+      "serialNumber": "947227950151"
+    },
+    {
+      "input": "JY-235851350282",
+      "rea": "JY-235851350282",
+      "provinceCode": "JY",
+      "serialNumber": "235851350282"
+    },
+    {
+      "input": "KB-781222893763",
+      "rea": "KB-781222893763",
+      "provinceCode": "KB",
+      "serialNumber": "781222893763"
+    },
+    {
+      "input": "KD-771634251961",
+      "rea": "KD-771634251961",
+      "provinceCode": "KD",
+      "serialNumber": "771634251961"
+    },
+    {
+      "input": "KE-564786418307",
+      "rea": "KE-564786418307",
+      "provinceCode": "KE",
+      "serialNumber": "564786418307"
+    },
+    {
+      "input": "KG-674165654399",
+      "rea": "KG-674165654399",
+      "provinceCode": "KG",
+      "serialNumber": "674165654399"
+    },
+    {
+      "input": "KI-799669917949",
+      "rea": "KI-799669917949",
+      "provinceCode": "KI",
+      "serialNumber": "799669917949"
+    },
+    {
+      "input": "KJ-62451449337",
+      "rea": "KJ-62451449337",
+      "provinceCode": "KJ",
+      "serialNumber": "62451449337"
+    },
+    {
+      "input": "KK-58380158914",
+      "rea": "KK-58380158914",
+      "provinceCode": "KK",
+      "serialNumber": "58380158914"
+    },
+    {
+      "input": "KM-920504654196",
+      "rea": "KM-920504654196",
+      "provinceCode": "KM",
+      "serialNumber": "920504654196"
+    },
+    {
+      "input": "KP-611940173868",
+      "rea": "KP-611940173868",
+      "provinceCode": "KP",
+      "serialNumber": "611940173868"
+    },
+    {
+      "input": "KT-679308524351",
+      "rea": "KT-679308524351",
+      "provinceCode": "KT",
+      "serialNumber": "679308524351"
+    },
+    {
+      "input": "KU-740929313393",
+      "rea": "KU-740929313393",
+      "provinceCode": "KU",
+      "serialNumber": "740929313393"
+    },
+    {
+      "input": "KV-903397220117",
+      "rea": "KV-903397220117",
+      "provinceCode": "KV",
+      "serialNumber": "903397220117"
+    },
+    {
+      "input": "KW-642389445627",
+      "rea": "KW-642389445627",
+      "provinceCode": "KW",
+      "serialNumber": "642389445627"
+    },
+    {
+      "input": "KY-211022123576",
+      "rea": "KY-211022123576",
+      "provinceCode": "KY",
+      "serialNumber": "211022123576"
+    },
+    {
+      "input": "KZ-649730142276",
+      "rea": "KZ-649730142276",
+      "provinceCode": "KZ",
+      "serialNumber": "649730142276"
+    },
+    {
+      "input": "LA-235683953646",
+      "rea": "LA-235683953646",
+      "provinceCode": "LA",
+      "serialNumber": "235683953646"
+    },
+    {
+      "input": "LD-69408190977",
+      "rea": "LD-69408190977",
+      "provinceCode": "LD",
+      "serialNumber": "69408190977"
+    },
+    {
+      "input": "LG-787484302938",
+      "rea": "LG-787484302938",
+      "provinceCode": "LG",
+      "serialNumber": "787484302938"
+    },
+    {
+      "input": "LI-447367811106",
+      "rea": "LI-447367811106",
+      "provinceCode": "LI",
+      "serialNumber": "447367811106"
+    },
+    {
+      "input": "LJ-455354379494",
+      "rea": "LJ-455354379494",
+      "provinceCode": "LJ",
+      "serialNumber": "455354379494"
+    },
+    {
+      "input": "LK-958045448593",
+      "rea": "LK-958045448593",
+      "provinceCode": "LK",
+      "serialNumber": "958045448593"
+    },
+    {
+      "input": "LM-642629704147",
+      "rea": "LM-642629704147",
+      "provinceCode": "LM",
+      "serialNumber": "642629704147"
+    },
+    {
+      "input": "LN-137656672039",
+      "rea": "LN-137656672039",
+      "provinceCode": "LN",
+      "serialNumber": "137656672039"
+    },
+    {
+      "input": "LO-710872639489",
+      "rea": "LO-710872639489",
+      "provinceCode": "LO",
+      "serialNumber": "710872639489"
+    },
+    {
+      "input": "LQ-208502769358",
+      "rea": "LQ-208502769358",
+      "provinceCode": "LQ",
+      "serialNumber": "208502769358"
+    },
+    {
+      "input": "LR-424168218778",
+      "rea": "LR-424168218778",
+      "provinceCode": "LR",
+      "serialNumber": "424168218778"
+    },
+    {
+      "input": "LT-774929198571",
+      "rea": "LT-774929198571",
+      "provinceCode": "LT",
+      "serialNumber": "774929198571"
+    },
+    {
+      "input": "LV-942074252116",
+      "rea": "LV-942074252116",
+      "provinceCode": "LV",
+      "serialNumber": "942074252116"
+    },
+    {
+      "input": "LW-503950019804",
+      "rea": "LW-503950019804",
+      "provinceCode": "LW",
+      "serialNumber": "503950019804"
+    },
+    {
+      "input": "LZ-671899220652",
+      "rea": "LZ-671899220652",
+      "provinceCode": "LZ",
+      "serialNumber": "671899220652"
+    },
+    {
+      "input": "MD-583946161867",
+      "rea": "MD-583946161867",
+      "provinceCode": "MD",
+      "serialNumber": "583946161867"
+    },
+    {
+      "input": "ME-291937085137",
+      "rea": "ME-291937085137",
+      "provinceCode": "ME",
+      "serialNumber": "291937085137"
+    },
+    {
+      "input": "MH-785203479557",
+      "rea": "MH-785203479557",
+      "provinceCode": "MH",
+      "serialNumber": "785203479557"
+    },
+    {
+      "input": "MJ-186742998481",
+      "rea": "MJ-186742998481",
+      "provinceCode": "MJ",
+      "serialNumber": "186742998481"
+    },
+    {
+      "input": "ML-841169517410",
+      "rea": "ML-841169517410",
+      "provinceCode": "ML",
+      "serialNumber": "841169517410"
+    },
+    {
+      "input": "MM-510308733940",
+      "rea": "MM-510308733940",
+      "provinceCode": "MM",
+      "serialNumber": "510308733940"
+    },
+    {
+      "input": "MO-437691280334",
+      "rea": "MO-437691280334",
+      "provinceCode": "MO",
+      "serialNumber": "437691280334"
+    },
+    {
+      "input": "MR-393944612331",
+      "rea": "MR-393944612331",
+      "provinceCode": "MR",
+      "serialNumber": "393944612331"
+    },
+    {
+      "input": "MT-671679508628",
+      "rea": "MT-671679508628",
+      "provinceCode": "MT",
+      "serialNumber": "671679508628"
+    },
+    {
+      "input": "MU-800909615091",
+      "rea": "MU-800909615091",
+      "provinceCode": "MU",
+      "serialNumber": "800909615091"
+    },
+    {
+      "input": "MV-397365606099",
+      "rea": "MV-397365606099",
+      "provinceCode": "MV",
+      "serialNumber": "397365606099"
+    },
+    {
+      "input": "MX-182700094677",
+      "rea": "MX-182700094677",
+      "provinceCode": "MX",
+      "serialNumber": "182700094677"
+    },
+    {
+      "input": "MY-321521023020",
+      "rea": "MY-321521023020",
+      "provinceCode": "MY",
+      "serialNumber": "321521023020"
+    },
+    {
+      "input": "MZ-665121905043",
+      "rea": "MZ-665121905043",
+      "provinceCode": "MZ",
+      "serialNumber": "665121905043"
+    },
+    {
+      "input": "NA-599390098348",
+      "rea": "NA-599390098348",
+      "provinceCode": "NA",
+      "serialNumber": "599390098348"
+    },
+    {
+      "input": "NB-256061043408",
+      "rea": "NB-256061043408",
+      "provinceCode": "NB",
+      "serialNumber": "256061043408"
+    },
+    {
+      "input": "NC-852870866744",
+      "rea": "NC-852870866744",
+      "provinceCode": "NC",
+      "serialNumber": "852870866744"
+    },
+    {
+      "input": "NE-524439548397",
+      "rea": "NE-524439548397",
+      "provinceCode": "NE",
+      "serialNumber": "524439548397"
+    },
+    {
+      "input": "NF-223664194016",
+      "rea": "NF-223664194016",
+      "provinceCode": "NF",
+      "serialNumber": "223664194016"
+    },
+    {
+      "input": "NH-231607384168",
+      "rea": "NH-231607384168",
+      "provinceCode": "NH",
+      "serialNumber": "231607384168"
+    },
+    {
+      "input": "NI-163859879536",
+      "rea": "NI-163859879536",
+      "provinceCode": "NI",
+      "serialNumber": "163859879536"
+    },
+    {
+      "input": "NK-124854115203",
+      "rea": "NK-124854115203",
+      "provinceCode": "NK",
+      "serialNumber": "124854115203"
+    },
+    {
+      "input": "NM-417872732270",
+      "rea": "NM-417872732270",
+      "provinceCode": "NM",
+      "serialNumber": "417872732270"
+    },
+    {
+      "input": "NN-959723551149",
+      "rea": "NN-959723551149",
+      "provinceCode": "NN",
+      "serialNumber": "959723551149"
+    },
+    {
+      "input": "NS-651591676455",
+      "rea": "NS-651591676455",
+      "provinceCode": "NS",
+      "serialNumber": "651591676455"
+    },
+    {
+      "input": "NU-343954291790",
+      "rea": "NU-343954291790",
+      "provinceCode": "NU",
+      "serialNumber": "343954291790"
+    },
+    {
+      "input": "NV-449998175924",
+      "rea": "NV-449998175924",
+      "provinceCode": "NV",
+      "serialNumber": "449998175924"
+    },
+    {
+      "input": "NZ-99923647172",
+      "rea": "NZ-99923647172",
+      "provinceCode": "NZ",
+      "serialNumber": "99923647172"
+    },
+    {
+      "input": "OA-186272437684",
+      "rea": "OA-186272437684",
+      "provinceCode": "OA",
+      "serialNumber": "186272437684"
+    },
+    {
+      "input": "OC-889959962559",
+      "rea": "OC-889959962559",
+      "provinceCode": "OC",
+      "serialNumber": "889959962559"
+    },
+    {
+      "input": "OD-845685047486",
+      "rea": "OD-845685047486",
+      "provinceCode": "OD",
+      "serialNumber": "845685047486"
+    },
+    {
+      "input": "OG-113025770150",
+      "rea": "OG-113025770150",
+      "provinceCode": "OG",
+      "serialNumber": "113025770150"
+    },
+    {
+      "input": "OH-763503563290",
+      "rea": "OH-763503563290",
+      "provinceCode": "OH",
+      "serialNumber": "763503563290"
+    },
+    {
+      "input": "OI-653216638083",
+      "rea": "OI-653216638083",
+      "provinceCode": "OI",
+      "serialNumber": "653216638083"
+    },
+    {
+      "input": "OJ-669958158579",
+      "rea": "OJ-669958158579",
+      "provinceCode": "OJ",
+      "serialNumber": "669958158579"
+    },
+    {
+      "input": "OK-631752563001",
+      "rea": "OK-631752563001",
+      "provinceCode": "OK",
+      "serialNumber": "631752563001"
+    },
+    {
+      "input": "OO-586930940859",
+      "rea": "OO-586930940859",
+      "provinceCode": "OO",
+      "serialNumber": "586930940859"
+    },
+    {
+      "input": "OQ-185425713829",
+      "rea": "OQ-185425713829",
+      "provinceCode": "OQ",
+      "serialNumber": "185425713829"
+    },
+    {
+      "input": "OR-230934282243",
+      "rea": "OR-230934282243",
+      "provinceCode": "OR",
+      "serialNumber": "230934282243"
+    },
+    {
+      "input": "OS-149664390479",
+      "rea": "OS-149664390479",
+      "provinceCode": "OS",
+      "serialNumber": "149664390479"
+    },
+    {
+      "input": "OT-683945227487",
+      "rea": "OT-683945227487",
+      "provinceCode": "OT",
+      "serialNumber": "683945227487"
+    },
+    {
+      "input": "OU-499903974374",
+      "rea": "OU-499903974374",
+      "provinceCode": "OU",
+      "serialNumber": "499903974374"
+    },
+    {
+      "input": "OX-5516306426",
+      "rea": "OX-5516306426",
+      "provinceCode": "OX",
+      "serialNumber": "5516306426"
+    },
+    {
+      "input": "PA-486883958808",
+      "rea": "PA-486883958808",
+      "provinceCode": "PA",
+      "serialNumber": "486883958808"
+    },
+    {
+      "input": "PC-509304691076",
+      "rea": "PC-509304691076",
+      "provinceCode": "PC",
+      "serialNumber": "509304691076"
+    },
+    {
+      "input": "PD-280651979985",
+      "rea": "PD-280651979985",
+      "provinceCode": "PD",
+      "serialNumber": "280651979985"
+    },
+    {
+      "input": "PH-297567561",
+      "rea": "PH-297567561",
+      "provinceCode": "PH",
+      "serialNumber": "297567561"
+    },
+    {
+      "input": "PN-974333801688",
+      "rea": "PN-974333801688",
+      "provinceCode": "PN",
+      "serialNumber": "974333801688"
+    },
+    {
+      "input": "PQ-555913404656",
+      "rea": "PQ-555913404656",
+      "provinceCode": "PQ",
+      "serialNumber": "555913404656"
+    },
+    {
+      "input": "PR-278174168805",
+      "rea": "PR-278174168805",
+      "provinceCode": "PR",
+      "serialNumber": "278174168805"
+    },
+    {
+      "input": "PT-208241591595",
+      "rea": "PT-208241591595",
+      "provinceCode": "PT",
+      "serialNumber": "208241591595"
+    },
+    {
+      "input": "PW-627909551517",
+      "rea": "PW-627909551517",
+      "provinceCode": "PW",
+      "serialNumber": "627909551517"
+    },
+    {
+      "input": "PX-862026062875",
+      "rea": "PX-862026062875",
+      "provinceCode": "PX",
+      "serialNumber": "862026062875"
+    },
+    {
+      "input": "PZ-787524696257",
+      "rea": "PZ-787524696257",
+      "provinceCode": "PZ",
+      "serialNumber": "787524696257"
+    },
+    {
+      "input": "QA-197084039662",
+      "rea": "QA-197084039662",
+      "provinceCode": "QA",
+      "serialNumber": "197084039662"
+    },
+    {
+      "input": "QB-917729197679",
+      "rea": "QB-917729197679",
+      "provinceCode": "QB",
+      "serialNumber": "917729197679"
+    },
+    {
+      "input": "QC-81343754337",
+      "rea": "QC-81343754337",
+      "provinceCode": "QC",
+      "serialNumber": "81343754337"
+    },
+    {
+      "input": "QD-5087053252",
+      "rea": "QD-5087053252",
+      "provinceCode": "QD",
+      "serialNumber": "5087053252"
+    },
+    {
+      "input": "QG-558319386630",
+      "rea": "QG-558319386630",
+      "provinceCode": "QG",
+      "serialNumber": "558319386630"
+    },
+    {
+      "input": "QH-281745772401",
+      "rea": "QH-281745772401",
+      "provinceCode": "QH",
+      "serialNumber": "281745772401"
+    },
+    {
+      "input": "QJ-181129387975",
+      "rea": "QJ-181129387975",
+      "provinceCode": "QJ",
+      "serialNumber": "181129387975"
+    },
+    {
+      "input": "QM-166686422588",
+      "rea": "QM-166686422588",
+      "provinceCode": "QM",
+      "serialNumber": "166686422588"
+    },
+    {
+      "input": "QO-78128229816",
+      "rea": "QO-78128229816",
+      "provinceCode": "QO",
+      "serialNumber": "78128229816"
+    },
+    {
+      "input": "QP-268412635676",
+      "rea": "QP-268412635676",
+      "provinceCode": "QP",
+      "serialNumber": "268412635676"
+    },
+    {
+      "input": "QQ-699855057399",
+      "rea": "QQ-699855057399",
+      "provinceCode": "QQ",
+      "serialNumber": "699855057399"
+    },
+    {
+      "input": "QS-120602745469",
+      "rea": "QS-120602745469",
+      "provinceCode": "QS",
+      "serialNumber": "120602745469"
+    },
+    {
+      "input": "QU-290370901026",
+      "rea": "QU-290370901026",
+      "provinceCode": "QU",
+      "serialNumber": "290370901026"
+    },
+    {
+      "input": "QV-422432320708",
+      "rea": "QV-422432320708",
+      "provinceCode": "QV",
+      "serialNumber": "422432320708"
+    },
+    {
+      "input": "QY-506497363277",
+      "rea": "QY-506497363277",
+      "provinceCode": "QY",
+      "serialNumber": "506497363277"
+    },
+    {
+      "input": "QZ-441767173191",
+      "rea": "QZ-441767173191",
+      "provinceCode": "QZ",
+      "serialNumber": "441767173191"
+    },
+    {
+      "input": "RA-919928908455",
+      "rea": "RA-919928908455",
+      "provinceCode": "RA",
+      "serialNumber": "919928908455"
+    },
+    {
+      "input": "RB-645105574814",
+      "rea": "RB-645105574814",
+      "provinceCode": "RB",
+      "serialNumber": "645105574814"
+    },
+    {
+      "input": "RC-570245284250",
+      "rea": "RC-570245284250",
+      "provinceCode": "RC",
+      "serialNumber": "570245284250"
+    },
+    {
+      "input": "RD-357556742102",
+      "rea": "RD-357556742102",
+      "provinceCode": "RD",
+      "serialNumber": "357556742102"
+    },
+    {
+      "input": "RE-987502339845",
+      "rea": "RE-987502339845",
+      "provinceCode": "RE",
+      "serialNumber": "987502339845"
+    },
+    {
+      "input": "RF-886767898403",
+      "rea": "RF-886767898403",
+      "provinceCode": "RF",
+      "serialNumber": "886767898403"
+    },
+    {
+      "input": "RG-857583348278",
+      "rea": "RG-857583348278",
+      "provinceCode": "RG",
+      "serialNumber": "857583348278"
+    },
+    {
+      "input": "RH-293547598521",
+      "rea": "RH-293547598521",
+      "provinceCode": "RH",
+      "serialNumber": "293547598521"
+    },
+    {
+      "input": "RI-58830532306",
+      "rea": "RI-58830532306",
+      "provinceCode": "RI",
+      "serialNumber": "58830532306"
+    },
+    {
+      "input": "RK-537460124106",
+      "rea": "RK-537460124106",
+      "provinceCode": "RK",
+      "serialNumber": "537460124106"
+    },
+    {
+      "input": "RM-000123456",
+      "rea": "RM-000123456",
+      "provinceCode": "RM",
+      "serialNumber": "000123456"
+    },
+    {
+      "input": "RM-123456",
+      "rea": "RM-123456",
+      "provinceCode": "RM",
+      "serialNumber": "123456"
+    },
+    {
+      "input": "RO-958886122575",
+      "rea": "RO-958886122575",
+      "provinceCode": "RO",
+      "serialNumber": "958886122575"
+    },
+    {
+      "input": "RP-593767908741",
+      "rea": "RP-593767908741",
+      "provinceCode": "RP",
+      "serialNumber": "593767908741"
+    },
+    {
+      "input": "RQ-292880953304",
+      "rea": "RQ-292880953304",
+      "provinceCode": "RQ",
+      "serialNumber": "292880953304"
+    },
+    {
+      "input": "RR-448224813562",
+      "rea": "RR-448224813562",
+      "provinceCode": "RR",
+      "serialNumber": "448224813562"
+    },
+    {
+      "input": "RY-449888271164",
+      "rea": "RY-449888271164",
+      "provinceCode": "RY",
+      "serialNumber": "449888271164"
+    },
+    {
+      "input": "RZ-505258896132",
+      "rea": "RZ-505258896132",
+      "provinceCode": "RZ",
+      "serialNumber": "505258896132"
+    },
+    {
+      "input": "SA-373773083498",
+      "rea": "SA-373773083498",
+      "provinceCode": "SA",
+      "serialNumber": "373773083498"
+    },
+    {
+      "input": "SB-503470911945",
+      "rea": "SB-503470911945",
+      "provinceCode": "SB",
+      "serialNumber": "503470911945"
+    },
+    {
+      "input": "SC-829097608560",
+      "rea": "SC-829097608560",
+      "provinceCode": "SC",
+      "serialNumber": "829097608560"
+    },
+    {
+      "input": "SH-526880790468",
+      "rea": "SH-526880790468",
+      "provinceCode": "SH",
+      "serialNumber": "526880790468"
+    },
+    {
+      "input": "SJ-618820789722",
+      "rea": "SJ-618820789722",
+      "provinceCode": "SJ",
+      "serialNumber": "618820789722"
+    },
+    {
+      "input": "SK-694586197325",
+      "rea": "SK-694586197325",
+      "provinceCode": "SK",
+      "serialNumber": "694586197325"
+    },
+    {
+      "input": "SM-391671903405",
+      "rea": "SM-391671903405",
+      "provinceCode": "SM",
+      "serialNumber": "391671903405"
+    },
+    {
+      "input": "SN-460833369280",
+      "rea": "SN-460833369280",
+      "provinceCode": "SN",
+      "serialNumber": "460833369280"
+    },
+    {
+      "input": "SO-35608201849",
+      "rea": "SO-35608201849",
+      "provinceCode": "SO",
+      "serialNumber": "35608201849"
+    },
+    {
+      "input": "SR-233282088275",
+      "rea": "SR-233282088275",
+      "provinceCode": "SR",
+      "serialNumber": "233282088275"
+    },
+    {
+      "input": "SS-470156774267",
+      "rea": "SS-470156774267",
+      "provinceCode": "SS",
+      "serialNumber": "470156774267"
+    },
+    {
+      "input": "ST-469178066256",
+      "rea": "ST-469178066256",
+      "provinceCode": "ST",
+      "serialNumber": "469178066256"
+    },
+    {
+      "input": "SU-444932855090",
+      "rea": "SU-444932855090",
+      "provinceCode": "SU",
+      "serialNumber": "444932855090"
+    },
+    {
+      "input": "SX-259348733479",
+      "rea": "SX-259348733479",
+      "provinceCode": "SX",
+      "serialNumber": "259348733479"
+    },
+    {
+      "input": "TB-801896153428",
+      "rea": "TB-801896153428",
+      "provinceCode": "TB",
+      "serialNumber": "801896153428"
+    },
+    {
+      "input": "TJ-947584714430",
+      "rea": "TJ-947584714430",
+      "provinceCode": "TJ",
+      "serialNumber": "947584714430"
+    },
+    {
+      "input": "TM-712731832399",
+      "rea": "TM-712731832399",
+      "provinceCode": "TM",
+      "serialNumber": "712731832399"
+    },
+    {
+      "input": "TN-991575513335",
+      "rea": "TN-991575513335",
+      "provinceCode": "TN",
+      "serialNumber": "991575513335"
+    },
+    {
+      "input": "TO-286457401220",
+      "rea": "TO-286457401220",
+      "provinceCode": "TO",
+      "serialNumber": "286457401220"
+    },
+    {
+      "input": "TS-493359049784",
+      "rea": "TS-493359049784",
+      "provinceCode": "TS",
+      "serialNumber": "493359049784"
+    },
+    {
+      "input": "TU-656424357535",
+      "rea": "TU-656424357535",
+      "provinceCode": "TU",
+      "serialNumber": "656424357535"
+    },
+    {
+      "input": "TV-969229394569",
+      "rea": "TV-969229394569",
+      "provinceCode": "TV",
+      "serialNumber": "969229394569"
+    },
+    {
+      "input": "TW-882684206527",
+      "rea": "TW-882684206527",
+      "provinceCode": "TW",
+      "serialNumber": "882684206527"
+    },
+    {
+      "input": "TX-531732762369",
+      "rea": "TX-531732762369",
+      "provinceCode": "TX",
+      "serialNumber": "531732762369"
+    },
+    {
+      "input": "TZ-840270586666",
+      "rea": "TZ-840270586666",
+      "provinceCode": "TZ",
+      "serialNumber": "840270586666"
+    },
+    {
+      "input": "UA-167176453577",
+      "rea": "UA-167176453577",
+      "provinceCode": "UA",
+      "serialNumber": "167176453577"
+    },
+    {
+      "input": "UF-116844174394",
+      "rea": "UF-116844174394",
+      "provinceCode": "UF",
+      "serialNumber": "116844174394"
+    },
+    {
+      "input": "UG-70969170235",
+      "rea": "UG-70969170235",
+      "provinceCode": "UG",
+      "serialNumber": "70969170235"
+    },
+    {
+      "input": "UH-918970860789",
+      "rea": "UH-918970860789",
+      "provinceCode": "UH",
+      "serialNumber": "918970860789"
+    },
+    {
+      "input": "UL-919356956313",
+      "rea": "UL-919356956313",
+      "provinceCode": "UL",
+      "serialNumber": "919356956313"
+    },
+    {
+      "input": "UP-500036609421",
+      "rea": "UP-500036609421",
+      "provinceCode": "UP",
+      "serialNumber": "500036609421"
+    },
+    {
+      "input": "UQ-992521554736",
+      "rea": "UQ-992521554736",
+      "provinceCode": "UQ",
+      "serialNumber": "992521554736"
+    },
+    {
+      "input": "UR-722834102611",
+      "rea": "UR-722834102611",
+      "provinceCode": "UR",
+      "serialNumber": "722834102611"
+    },
+    {
+      "input": "US-578961944506",
+      "rea": "US-578961944506",
+      "provinceCode": "US",
+      "serialNumber": "578961944506"
+    },
+    {
+      "input": "UU-720581726315",
+      "rea": "UU-720581726315",
+      "provinceCode": "UU",
+      "serialNumber": "720581726315"
+    },
+    {
+      "input": "UV-897379504320",
+      "rea": "UV-897379504320",
+      "provinceCode": "UV",
+      "serialNumber": "897379504320"
+    },
+    {
+      "input": "UW-841650661332",
+      "rea": "UW-841650661332",
+      "provinceCode": "UW",
+      "serialNumber": "841650661332"
+    },
+    {
+      "input": "UY-32146190226",
+      "rea": "UY-32146190226",
+      "provinceCode": "UY",
+      "serialNumber": "32146190226"
+    },
+    {
+      "input": "UZ-92604181783",
+      "rea": "UZ-92604181783",
+      "provinceCode": "UZ",
+      "serialNumber": "92604181783"
+    },
+    {
+      "input": "VA-983919229885",
+      "rea": "VA-983919229885",
+      "provinceCode": "VA",
+      "serialNumber": "983919229885"
+    },
+    {
+      "input": "VB-640022222730",
+      "rea": "VB-640022222730",
+      "provinceCode": "VB",
+      "serialNumber": "640022222730"
+    },
+    {
+      "input": "VD-334864339880",
+      "rea": "VD-334864339880",
+      "provinceCode": "VD",
+      "serialNumber": "334864339880"
+    },
+    {
+      "input": "VJ-70380219615",
+      "rea": "VJ-70380219615",
+      "provinceCode": "VJ",
+      "serialNumber": "70380219615"
+    },
+    {
+      "input": "VK-92561776896",
+      "rea": "VK-92561776896",
+      "provinceCode": "VK",
+      "serialNumber": "92561776896"
+    },
+    {
+      "input": "VL-924980654137",
+      "rea": "VL-924980654137",
+      "provinceCode": "VL",
+      "serialNumber": "924980654137"
+    },
+    {
+      "input": "VM-603870293641",
+      "rea": "VM-603870293641",
+      "provinceCode": "VM",
+      "serialNumber": "603870293641"
+    },
+    {
+      "input": "VN-761099987598",
+      "rea": "VN-761099987598",
+      "provinceCode": "VN",
+      "serialNumber": "761099987598"
+    },
+    {
+      "input": "VO-816493282363",
+      "rea": "VO-816493282363",
+      "provinceCode": "VO",
+      "serialNumber": "816493282363"
+    },
+    {
+      "input": "VP-171080896086",
+      "rea": "VP-171080896086",
+      "provinceCode": "VP",
+      "serialNumber": "171080896086"
+    },
+    {
+      "input": "VQ-298794309328",
+      "rea": "VQ-298794309328",
+      "provinceCode": "VQ",
+      "serialNumber": "298794309328"
+    },
+    {
+      "input": "VR-320662563595",
+      "rea": "VR-320662563595",
+      "provinceCode": "VR",
+      "serialNumber": "320662563595"
+    },
+    {
+      "input": "VS-710967902898",
+      "rea": "VS-710967902898",
+      "provinceCode": "VS",
+      "serialNumber": "710967902898"
+    },
+    {
+      "input": "VV-49960981186",
+      "rea": "VV-49960981186",
+      "provinceCode": "VV",
+      "serialNumber": "49960981186"
+    },
+    {
+      "input": "VX-692603134906",
+      "rea": "VX-692603134906",
+      "provinceCode": "VX",
+      "serialNumber": "692603134906"
+    },
+    {
+      "input": "VY-466906595625",
+      "rea": "VY-466906595625",
+      "provinceCode": "VY",
+      "serialNumber": "466906595625"
+    },
+    {
+      "input": "VZ-295423249243",
+      "rea": "VZ-295423249243",
+      "provinceCode": "VZ",
+      "serialNumber": "295423249243"
+    },
+    {
+      "input": "WA-585796889434",
+      "rea": "WA-585796889434",
+      "provinceCode": "WA",
+      "serialNumber": "585796889434"
+    },
+    {
+      "input": "WC-28521742193",
+      "rea": "WC-28521742193",
+      "provinceCode": "WC",
+      "serialNumber": "28521742193"
+    },
+    {
+      "input": "WE-357339607158",
+      "rea": "WE-357339607158",
+      "provinceCode": "WE",
+      "serialNumber": "357339607158"
+    },
+    {
+      "input": "WG-407081047828",
+      "rea": "WG-407081047828",
+      "provinceCode": "WG",
+      "serialNumber": "407081047828"
+    },
+    {
+      "input": "WI-858866098529",
+      "rea": "WI-858866098529",
+      "provinceCode": "WI",
+      "serialNumber": "858866098529"
+    },
+    {
+      "input": "WK-776859863669",
+      "rea": "WK-776859863669",
+      "provinceCode": "WK",
+      "serialNumber": "776859863669"
+    },
+    {
+      "input": "WL-767870707435",
+      "rea": "WL-767870707435",
+      "provinceCode": "WL",
+      "serialNumber": "767870707435"
+    },
+    {
+      "input": "WO-105647405819",
+      "rea": "WO-105647405819",
+      "provinceCode": "WO",
+      "serialNumber": "105647405819"
+    },
+    {
+      "input": "WR-742718608241",
+      "rea": "WR-742718608241",
+      "provinceCode": "WR",
+      "serialNumber": "742718608241"
+    },
+    {
+      "input": "WS-920710962281",
+      "rea": "WS-920710962281",
+      "provinceCode": "WS",
+      "serialNumber": "920710962281"
+    },
+    {
+      "input": "WT-365317574343",
+      "rea": "WT-365317574343",
+      "provinceCode": "WT",
+      "serialNumber": "365317574343"
+    },
+    {
+      "input": "WU-943553561173",
+      "rea": "WU-943553561173",
+      "provinceCode": "WU",
+      "serialNumber": "943553561173"
+    },
+    {
+      "input": "WV-883634105947",
+      "rea": "WV-883634105947",
+      "provinceCode": "WV",
+      "serialNumber": "883634105947"
+    },
+    {
+      "input": "WW-299768659588",
+      "rea": "WW-299768659588",
+      "provinceCode": "WW",
+      "serialNumber": "299768659588"
+    },
+    {
+      "input": "WY-171469942932",
+      "rea": "WY-171469942932",
+      "provinceCode": "WY",
+      "serialNumber": "171469942932"
+    },
+    {
+      "input": "XC-671200797534",
+      "rea": "XC-671200797534",
+      "provinceCode": "XC",
+      "serialNumber": "671200797534"
+    },
+    {
+      "input": "XE-472073815083",
+      "rea": "XE-472073815083",
+      "provinceCode": "XE",
+      "serialNumber": "472073815083"
+    },
+    {
+      "input": "XF-623994350523",
+      "rea": "XF-623994350523",
+      "provinceCode": "XF",
+      "serialNumber": "623994350523"
+    },
+    {
+      "input": "XH-868431657624",
+      "rea": "XH-868431657624",
+      "provinceCode": "XH",
+      "serialNumber": "868431657624"
+    },
+    {
+      "input": "XJ-118672494131",
+      "rea": "XJ-118672494131",
+      "provinceCode": "XJ",
+      "serialNumber": "118672494131"
+    },
+    {
+      "input": "XM-891968004185",
+      "rea": "XM-891968004185",
+      "provinceCode": "XM",
+      "serialNumber": "891968004185"
+    },
+    {
+      "input": "XQ-720663492461",
+      "rea": "XQ-720663492461",
+      "provinceCode": "XQ",
+      "serialNumber": "720663492461"
+    },
+    {
+      "input": "XR-193607295450",
+      "rea": "XR-193607295450",
+      "provinceCode": "XR",
+      "serialNumber": "193607295450"
+    },
+    {
+      "input": "XU-680838862675",
+      "rea": "XU-680838862675",
+      "provinceCode": "XU",
+      "serialNumber": "680838862675"
+    },
+    {
+      "input": "XX-807879825062",
+      "rea": "XX-807879825062",
+      "provinceCode": "XX",
+      "serialNumber": "807879825062"
+    },
+    {
+      "input": "XY-181388674966",
+      "rea": "XY-181388674966",
+      "provinceCode": "XY",
+      "serialNumber": "181388674966"
+    },
+    {
+      "input": "YE-74231614859",
+      "rea": "YE-74231614859",
+      "provinceCode": "YE",
+      "serialNumber": "74231614859"
+    },
+    {
+      "input": "YF-988018474300",
+      "rea": "YF-988018474300",
+      "provinceCode": "YF",
+      "serialNumber": "988018474300"
+    },
+    {
+      "input": "YI-786732138605",
+      "rea": "YI-786732138605",
+      "provinceCode": "YI",
+      "serialNumber": "786732138605"
+    },
+    {
+      "input": "YJ-842186655330",
+      "rea": "YJ-842186655330",
+      "provinceCode": "YJ",
+      "serialNumber": "842186655330"
+    },
+    {
+      "input": "YM-951574449384",
+      "rea": "YM-951574449384",
+      "provinceCode": "YM",
+      "serialNumber": "951574449384"
+    },
+    {
+      "input": "YN-162439178881",
+      "rea": "YN-162439178881",
+      "provinceCode": "YN",
+      "serialNumber": "162439178881"
+    },
+    {
+      "input": "YO-311325294878",
+      "rea": "YO-311325294878",
+      "provinceCode": "YO",
+      "serialNumber": "311325294878"
+    },
+    {
+      "input": "YQ-753396469153",
+      "rea": "YQ-753396469153",
+      "provinceCode": "YQ",
+      "serialNumber": "753396469153"
+    },
+    {
+      "input": "YV-493120373259",
+      "rea": "YV-493120373259",
+      "provinceCode": "YV",
+      "serialNumber": "493120373259"
+    },
+    {
+      "input": "YW-283595461772",
+      "rea": "YW-283595461772",
+      "provinceCode": "YW",
+      "serialNumber": "283595461772"
+    },
+    {
+      "input": "YY-960978268588",
+      "rea": "YY-960978268588",
+      "provinceCode": "YY",
+      "serialNumber": "960978268588"
+    },
+    {
+      "input": "YZ-345989794738",
+      "rea": "YZ-345989794738",
+      "provinceCode": "YZ",
+      "serialNumber": "345989794738"
+    },
+    {
+      "input": "ZB-94231973021",
+      "rea": "ZB-94231973021",
+      "provinceCode": "ZB",
+      "serialNumber": "94231973021"
+    },
+    {
+      "input": "ZC-686282741393",
+      "rea": "ZC-686282741393",
+      "provinceCode": "ZC",
+      "serialNumber": "686282741393"
+    },
+    {
+      "input": "ZD-748708860174",
+      "rea": "ZD-748708860174",
+      "provinceCode": "ZD",
+      "serialNumber": "748708860174"
+    },
+    {
+      "input": "ZG-450293911042",
+      "rea": "ZG-450293911042",
+      "provinceCode": "ZG",
+      "serialNumber": "450293911042"
+    },
+    {
+      "input": "ZI-102403155833",
+      "rea": "ZI-102403155833",
+      "provinceCode": "ZI",
+      "serialNumber": "102403155833"
+    },
+    {
+      "input": "ZJ-764915304538",
+      "rea": "ZJ-764915304538",
+      "provinceCode": "ZJ",
+      "serialNumber": "764915304538"
+    },
+    {
+      "input": "ZK-715444817598",
+      "rea": "ZK-715444817598",
+      "provinceCode": "ZK",
+      "serialNumber": "715444817598"
+    },
+    {
+      "input": "ZL-806935221170",
+      "rea": "ZL-806935221170",
+      "provinceCode": "ZL",
+      "serialNumber": "806935221170"
+    },
+    {
+      "input": "ZO-401747128763",
+      "rea": "ZO-401747128763",
+      "provinceCode": "ZO",
+      "serialNumber": "401747128763"
+    },
+    {
+      "input": "ZP-321139238971",
+      "rea": "ZP-321139238971",
+      "provinceCode": "ZP",
+      "serialNumber": "321139238971"
+    },
+    {
+      "input": "ZR-2670441951",
+      "rea": "ZR-2670441951",
+      "provinceCode": "ZR",
+      "serialNumber": "2670441951"
+    },
+    {
+      "input": "ZW-58433219739",
+      "rea": "ZW-58433219739",
+      "provinceCode": "ZW",
+      "serialNumber": "58433219739"
+    },
+    {
+      "input": "ZZ-0",
+      "rea": "ZZ-0",
+      "provinceCode": "ZZ",
+      "serialNumber": "0"
+    },
+    {
+      "input": "aa-739083645772",
+      "rea": "AA-739083645772",
+      "provinceCode": "AA",
+      "serialNumber": "739083645772"
+    },
+    {
+      "input": "ab-317471819536",
+      "rea": "AB-317471819536",
+      "provinceCode": "AB",
+      "serialNumber": "317471819536"
+    },
+    {
+      "input": "ag-633343122637",
+      "rea": "AG-633343122637",
+      "provinceCode": "AG",
+      "serialNumber": "633343122637"
+    },
+    {
+      "input": "ah-963655624858",
+      "rea": "AH-963655624858",
+      "provinceCode": "AH",
+      "serialNumber": "963655624858"
+    },
+    {
+      "input": "al-30322230312",
+      "rea": "AL-30322230312",
+      "provinceCode": "AL",
+      "serialNumber": "30322230312"
+    },
+    {
+      "input": "ao-251188649992",
+      "rea": "AO-251188649992",
+      "provinceCode": "AO",
+      "serialNumber": "251188649992"
+    },
+    {
+      "input": "ar-691489915888",
+      "rea": "AR-691489915888",
+      "provinceCode": "AR",
+      "serialNumber": "691489915888"
+    },
+    {
+      "input": "av-127468854292",
+      "rea": "AV-127468854292",
+      "provinceCode": "AV",
+      "serialNumber": "127468854292"
+    },
+    {
+      "input": "aw-41145844433",
+      "rea": "AW-41145844433",
+      "provinceCode": "AW",
+      "serialNumber": "41145844433"
+    },
+    {
+      "input": "ax-529540869317",
+      "rea": "AX-529540869317",
+      "provinceCode": "AX",
+      "serialNumber": "529540869317"
+    },
+    {
+      "input": "bc-251873991222",
+      "rea": "BC-251873991222",
+      "provinceCode": "BC",
+      "serialNumber": "251873991222"
+    },
+    {
+      "input": "bd-155911931125",
+      "rea": "BD-155911931125",
+      "provinceCode": "BD",
+      "serialNumber": "155911931125"
+    },
+    {
+      "input": "bl-502545673831",
+      "rea": "BL-502545673831",
+      "provinceCode": "BL",
+      "serialNumber": "502545673831"
+    },
+    {
+      "input": "bn-71379757627",
+      "rea": "BN-71379757627",
+      "provinceCode": "BN",
+      "serialNumber": "71379757627"
+    },
+    {
+      "input": "bo-352916547984",
+      "rea": "BO-352916547984",
+      "provinceCode": "BO",
+      "serialNumber": "352916547984"
+    },
+    {
+      "input": "bp-602274894442",
+      "rea": "BP-602274894442",
+      "provinceCode": "BP",
+      "serialNumber": "602274894442"
+    },
+    {
+      "input": "br-707083009721",
+      "rea": "BR-707083009721",
+      "provinceCode": "BR",
+      "serialNumber": "707083009721"
+    },
+    {
+      "input": "bs-988075691082",
+      "rea": "BS-988075691082",
+      "provinceCode": "BS",
+      "serialNumber": "988075691082"
+    },
+    {
+      "input": "bt-458537805675",
+      "rea": "BT-458537805675",
+      "provinceCode": "BT",
+      "serialNumber": "458537805675"
+    },
+    {
+      "input": "bx-995515795101",
+      "rea": "BX-995515795101",
+      "provinceCode": "BX",
+      "serialNumber": "995515795101"
+    },
+    {
+      "input": "by-951773766001",
+      "rea": "BY-951773766001",
+      "provinceCode": "BY",
+      "serialNumber": "951773766001"
+    },
+    {
+      "input": "bz-126408261951",
+      "rea": "BZ-126408261951",
+      "provinceCode": "BZ",
+      "serialNumber": "126408261951"
+    },
+    {
+      "input": "ca-150259887793",
+      "rea": "CA-150259887793",
+      "provinceCode": "CA",
+      "serialNumber": "150259887793"
+    },
+    {
+      "input": "cb-996491633121",
+      "rea": "CB-996491633121",
+      "provinceCode": "CB",
+      "serialNumber": "996491633121"
+    },
+    {
+      "input": "cc-498244371065",
+      "rea": "CC-498244371065",
+      "provinceCode": "CC",
+      "serialNumber": "498244371065"
+    },
+    {
+      "input": "ce-787508294377",
+      "rea": "CE-787508294377",
+      "provinceCode": "CE",
+      "serialNumber": "787508294377"
+    },
+    {
+      "input": "ch-42545660704",
+      "rea": "CH-42545660704",
+      "provinceCode": "CH",
+      "serialNumber": "42545660704"
+    },
+    {
+      "input": "ci-292190071047",
+      "rea": "CI-292190071047",
+      "provinceCode": "CI",
+      "serialNumber": "292190071047"
+    },
+    {
+      "input": "cj-814047579801",
+      "rea": "CJ-814047579801",
+      "provinceCode": "CJ",
+      "serialNumber": "814047579801"
+    },
+    {
+      "input": "ck-577694983821",
+      "rea": "CK-577694983821",
+      "provinceCode": "CK",
+      "serialNumber": "577694983821"
+    },
+    {
+      "input": "cp-27340307082",
+      "rea": "CP-27340307082",
+      "provinceCode": "CP",
+      "serialNumber": "27340307082"
+    },
+    {
+      "input": "cq-234009385393",
+      "rea": "CQ-234009385393",
+      "provinceCode": "CQ",
+      "serialNumber": "234009385393"
+    },
+    {
+      "input": "cr-949043478272",
+      "rea": "CR-949043478272",
+      "provinceCode": "CR",
+      "serialNumber": "949043478272"
+    },
+    {
+      "input": "cv-809916666327",
+      "rea": "CV-809916666327",
+      "provinceCode": "CV",
+      "serialNumber": "809916666327"
+    },
+    {
+      "input": "cw-150182201254",
+      "rea": "CW-150182201254",
+      "provinceCode": "CW",
+      "serialNumber": "150182201254"
+    },
+    {
+      "input": "cz-950522232313",
+      "rea": "CZ-950522232313",
+      "provinceCode": "CZ",
+      "serialNumber": "950522232313"
+    },
+    {
+      "input": "db-567069485917",
+      "rea": "DB-567069485917",
+      "provinceCode": "DB",
+      "serialNumber": "567069485917"
+    },
+    {
+      "input": "dg-266057549121",
+      "rea": "DG-266057549121",
+      "provinceCode": "DG",
+      "serialNumber": "266057549121"
+    },
+    {
+      "input": "dh-636710982851",
+      "rea": "DH-636710982851",
+      "provinceCode": "DH",
+      "serialNumber": "636710982851"
+    },
+    {
+      "input": "dn-2285669094",
+      "rea": "DN-2285669094",
+      "provinceCode": "DN",
+      "serialNumber": "2285669094"
+    },
+    {
+      "input": "dr-809336462538",
+      "rea": "DR-809336462538",
+      "provinceCode": "DR",
+      "serialNumber": "809336462538"
+    },
+    {
+      "input": "ea-688767166423",
+      "rea": "EA-688767166423",
+      "provinceCode": "EA",
+      "serialNumber": "688767166423"
+    },
+    {
+      "input": "eb-812572320438",
+      "rea": "EB-812572320438",
+      "provinceCode": "EB",
+      "serialNumber": "812572320438"
+    },
+    {
+      "input": "ec-163038952409",
+      "rea": "EC-163038952409",
+      "provinceCode": "EC",
+      "serialNumber": "163038952409"
+    },
+    {
+      "input": "ee-255250805358",
+      "rea": "EE-255250805358",
+      "provinceCode": "EE",
+      "serialNumber": "255250805358"
+    },
+    {
+      "input": "eg-227743775849",
+      "rea": "EG-227743775849",
+      "provinceCode": "EG",
+      "serialNumber": "227743775849"
+    },
+    {
+      "input": "ej-243680217226",
+      "rea": "EJ-243680217226",
+      "provinceCode": "EJ",
+      "serialNumber": "243680217226"
+    },
+    {
+      "input": "ek-765489652461",
+      "rea": "EK-765489652461",
+      "provinceCode": "EK",
+      "serialNumber": "765489652461"
+    },
+    {
+      "input": "eo-514518075474",
+      "rea": "EO-514518075474",
+      "provinceCode": "EO",
+      "serialNumber": "514518075474"
+    },
+    {
+      "input": "eq-910117926345",
+      "rea": "EQ-910117926345",
+      "provinceCode": "EQ",
+      "serialNumber": "910117926345"
+    },
+    {
+      "input": "es-196179200210",
+      "rea": "ES-196179200210",
+      "provinceCode": "ES",
+      "serialNumber": "196179200210"
+    },
+    {
+      "input": "et-846601088805",
+      "rea": "ET-846601088805",
+      "provinceCode": "ET",
+      "serialNumber": "846601088805"
+    },
+    {
+      "input": "eu-75475067181",
+      "rea": "EU-75475067181",
+      "provinceCode": "EU",
+      "serialNumber": "75475067181"
+    },
+    {
+      "input": "ex-677612469468",
+      "rea": "EX-677612469468",
+      "provinceCode": "EX",
+      "serialNumber": "677612469468"
+    },
+    {
+      "input": "fa-956443702287",
+      "rea": "FA-956443702287",
+      "provinceCode": "FA",
+      "serialNumber": "956443702287"
+    },
+    {
+      "input": "fc-973599065401",
+      "rea": "FC-973599065401",
+      "provinceCode": "FC",
+      "serialNumber": "973599065401"
+    },
+    {
+      "input": "fg-740666067608",
+      "rea": "FG-740666067608",
+      "provinceCode": "FG",
+      "serialNumber": "740666067608"
+    },
+    {
+      "input": "fh-856165341612",
+      "rea": "FH-856165341612",
+      "provinceCode": "FH",
+      "serialNumber": "856165341612"
+    },
+    {
+      "input": "fi-69306305664",
+      "rea": "FI-69306305664",
+      "provinceCode": "FI",
+      "serialNumber": "69306305664"
+    },
+    {
+      "input": "fj-759063043450",
+      "rea": "FJ-759063043450",
+      "provinceCode": "FJ",
+      "serialNumber": "759063043450"
+    },
+    {
+      "input": "fl-16995959156",
+      "rea": "FL-16995959156",
+      "provinceCode": "FL",
+      "serialNumber": "16995959156"
+    },
+    {
+      "input": "fp-85613077976",
+      "rea": "FP-85613077976",
+      "provinceCode": "FP",
+      "serialNumber": "85613077976"
+    },
+    {
+      "input": "fr-243400462412",
+      "rea": "FR-243400462412",
+      "provinceCode": "FR",
+      "serialNumber": "243400462412"
+    },
+    {
+      "input": "fs-440945553827",
+      "rea": "FS-440945553827",
+      "provinceCode": "FS",
+      "serialNumber": "440945553827"
+    },
+    {
+      "input": "ft-752275912653",
+      "rea": "FT-752275912653",
+      "provinceCode": "FT",
+      "serialNumber": "752275912653"
+    },
+    {
+      "input": "fv-675112408193",
+      "rea": "FV-675112408193",
+      "provinceCode": "FV",
+      "serialNumber": "675112408193"
+    },
+    {
+      "input": "fx-182328178381",
+      "rea": "FX-182328178381",
+      "provinceCode": "FX",
+      "serialNumber": "182328178381"
+    },
+    {
+      "input": "fy-161373803200",
+      "rea": "FY-161373803200",
+      "provinceCode": "FY",
+      "serialNumber": "161373803200"
+    },
+    {
+      "input": "ga-153962293315",
+      "rea": "GA-153962293315",
+      "provinceCode": "GA",
+      "serialNumber": "153962293315"
+    },
+    {
+      "input": "gb-796720800160",
+      "rea": "GB-796720800160",
+      "provinceCode": "GB",
+      "serialNumber": "796720800160"
+    },
+    {
+      "input": "gc-801789714931",
+      "rea": "GC-801789714931",
+      "provinceCode": "GC",
+      "serialNumber": "801789714931"
+    },
+    {
+      "input": "gg-31710637482",
+      "rea": "GG-31710637482",
+      "provinceCode": "GG",
+      "serialNumber": "31710637482"
+    },
+    {
+      "input": "gh-34958686326",
+      "rea": "GH-34958686326",
+      "provinceCode": "GH",
+      "serialNumber": "34958686326"
+    },
+    {
+      "input": "gp-125246135879",
+      "rea": "GP-125246135879",
+      "provinceCode": "GP",
+      "serialNumber": "125246135879"
+    },
+    {
+      "input": "gq-739661791714",
+      "rea": "GQ-739661791714",
+      "provinceCode": "GQ",
+      "serialNumber": "739661791714"
+    },
+    {
+      "input": "gs-888740490419",
+      "rea": "GS-888740490419",
+      "provinceCode": "GS",
+      "serialNumber": "888740490419"
+    },
+    {
+      "input": "gv-717265155823",
+      "rea": "GV-717265155823",
+      "provinceCode": "GV",
+      "serialNumber": "717265155823"
+    },
+    {
+      "input": "gy-924875727834",
+      "rea": "GY-924875727834",
+      "provinceCode": "GY",
+      "serialNumber": "924875727834"
+    },
+    {
+      "input": "gz-898958381477",
+      "rea": "GZ-898958381477",
+      "provinceCode": "GZ",
+      "serialNumber": "898958381477"
+    },
+    {
+      "input": "ha-10478512377",
+      "rea": "HA-10478512377",
+      "provinceCode": "HA",
+      "serialNumber": "10478512377"
+    },
+    {
+      "input": "he-899366455204",
+      "rea": "HE-899366455204",
+      "provinceCode": "HE",
+      "serialNumber": "899366455204"
+    },
+    {
+      "input": "hf-650753394421",
+      "rea": "HF-650753394421",
+      "provinceCode": "HF",
+      "serialNumber": "650753394421"
+    },
+    {
+      "input": "hg-418974144867",
+      "rea": "HG-418974144867",
+      "provinceCode": "HG",
+      "serialNumber": "418974144867"
+    },
+    {
+      "input": "hj-807929053782",
+      "rea": "HJ-807929053782",
+      "provinceCode": "HJ",
+      "serialNumber": "807929053782"
+    },
+    {
+      "input": "hk-365374549291",
+      "rea": "HK-365374549291",
+      "provinceCode": "HK",
+      "serialNumber": "365374549291"
+    },
+    {
+      "input": "hr-950159718695",
+      "rea": "HR-950159718695",
+      "provinceCode": "HR",
+      "serialNumber": "950159718695"
+    },
+    {
+      "input": "hs-433599347073",
+      "rea": "HS-433599347073",
+      "provinceCode": "HS",
+      "serialNumber": "433599347073"
+    },
+    {
+      "input": "ht-965608050677",
+      "rea": "HT-965608050677",
+      "provinceCode": "HT",
+      "serialNumber": "965608050677"
+    },
+    {
+      "input": "hv-220916664111",
+      "rea": "HV-220916664111",
+      "provinceCode": "HV",
+      "serialNumber": "220916664111"
+    },
+    {
+      "input": "hw-866582771162",
+      "rea": "HW-866582771162",
+      "provinceCode": "HW",
+      "serialNumber": "866582771162"
+    },
+    {
+      "input": "hy-676430669198",
+      "rea": "HY-676430669198",
+      "provinceCode": "HY",
+      "serialNumber": "676430669198"
+    },
+    {
+      "input": "hz-607507957937",
+      "rea": "HZ-607507957937",
+      "provinceCode": "HZ",
+      "serialNumber": "607507957937"
+    },
+    {
+      "input": "ib-457810022714",
+      "rea": "IB-457810022714",
+      "provinceCode": "IB",
+      "serialNumber": "457810022714"
+    },
+    {
+      "input": "if-737705663854",
+      "rea": "IF-737705663854",
+      "provinceCode": "IF",
+      "serialNumber": "737705663854"
+    },
+    {
+      "input": "ih-967942183465",
+      "rea": "IH-967942183465",
+      "provinceCode": "IH",
+      "serialNumber": "967942183465"
+    },
+    {
+      "input": "ij-505556054357",
+      "rea": "IJ-505556054357",
+      "provinceCode": "IJ",
+      "serialNumber": "505556054357"
+    },
+    {
+      "input": "il-223163289710",
+      "rea": "IL-223163289710",
+      "provinceCode": "IL",
+      "serialNumber": "223163289710"
+    },
+    {
+      "input": "im-483195078913",
+      "rea": "IM-483195078913",
+      "provinceCode": "IM",
+      "serialNumber": "483195078913"
+    },
+    {
+      "input": "in-191828831925",
+      "rea": "IN-191828831925",
+      "provinceCode": "IN",
+      "serialNumber": "191828831925"
+    },
+    {
+      "input": "io-154923933548",
+      "rea": "IO-154923933548",
+      "provinceCode": "IO",
+      "serialNumber": "154923933548"
+    },
+    {
+      "input": "iq-932053328405",
+      "rea": "IQ-932053328405",
+      "provinceCode": "IQ",
+      "serialNumber": "932053328405"
+    },
+    {
+      "input": "is-789322346310",
+      "rea": "IS-789322346310",
+      "provinceCode": "IS",
+      "serialNumber": "789322346310"
+    },
+    {
+      "input": "iv-122512509964",
+      "rea": "IV-122512509964",
+      "provinceCode": "IV",
+      "serialNumber": "122512509964"
+    },
+    {
+      "input": "iz-498934898570",
+      "rea": "IZ-498934898570",
+      "provinceCode": "IZ",
+      "serialNumber": "498934898570"
+    },
+    {
+      "input": "ja-451106136430",
+      "rea": "JA-451106136430",
+      "provinceCode": "JA",
+      "serialNumber": "451106136430"
+    },
+    {
+      "input": "jb-263832391176",
+      "rea": "JB-263832391176",
+      "provinceCode": "JB",
+      "serialNumber": "263832391176"
+    },
+    {
+      "input": "ji-10221277672",
+      "rea": "JI-10221277672",
+      "provinceCode": "JI",
+      "serialNumber": "10221277672"
+    },
+    {
+      "input": "jj-825051341134",
+      "rea": "JJ-825051341134",
+      "provinceCode": "JJ",
+      "serialNumber": "825051341134"
+    },
+    {
+      "input": "jk-914108671317",
+      "rea": "JK-914108671317",
+      "provinceCode": "JK",
+      "serialNumber": "914108671317"
+    },
+    {
+      "input": "jm-43486212198",
+      "rea": "JM-43486212198",
+      "provinceCode": "JM",
+      "serialNumber": "43486212198"
+    },
+    {
+      "input": "jn-26384283221",
+      "rea": "JN-26384283221",
+      "provinceCode": "JN",
+      "serialNumber": "26384283221"
+    },
+    {
+      "input": "jq-155028262138",
+      "rea": "JQ-155028262138",
+      "provinceCode": "JQ",
+      "serialNumber": "155028262138"
+    },
+    {
+      "input": "jt-400040932946",
+      "rea": "JT-400040932946",
+      "provinceCode": "JT",
+      "serialNumber": "400040932946"
+    },
+    {
+      "input": "ju-131339937279",
+      "rea": "JU-131339937279",
+      "provinceCode": "JU",
+      "serialNumber": "131339937279"
+    },
+    {
+      "input": "jv-96304225445",
+      "rea": "JV-96304225445",
+      "provinceCode": "JV",
+      "serialNumber": "96304225445"
+    },
+    {
+      "input": "jz-558860160761",
+      "rea": "JZ-558860160761",
+      "provinceCode": "JZ",
+      "serialNumber": "558860160761"
+    },
+    {
+      "input": "ka-51333575430",
+      "rea": "KA-51333575430",
+      "provinceCode": "KA",
+      "serialNumber": "51333575430"
+    },
+    {
+      "input": "kc-922591078005",
+      "rea": "KC-922591078005",
+      "provinceCode": "KC",
+      "serialNumber": "922591078005"
+    },
+    {
+      "input": "kf-357394809644",
+      "rea": "KF-357394809644",
+      "provinceCode": "KF",
+      "serialNumber": "357394809644"
+    },
+    {
+      "input": "kh-119235370842",
+      "rea": "KH-119235370842",
+      "provinceCode": "KH",
+      "serialNumber": "119235370842"
+    },
+    {
+      "input": "kl-408668696418",
+      "rea": "KL-408668696418",
+      "provinceCode": "KL",
+      "serialNumber": "408668696418"
+    },
+    {
+      "input": "kn-334162710928",
+      "rea": "KN-334162710928",
+      "provinceCode": "KN",
+      "serialNumber": "334162710928"
+    },
+    {
+      "input": "ko-643100705587",
+      "rea": "KO-643100705587",
+      "provinceCode": "KO",
+      "serialNumber": "643100705587"
+    },
+    {
+      "input": "kq-244583690513",
+      "rea": "KQ-244583690513",
+      "provinceCode": "KQ",
+      "serialNumber": "244583690513"
+    },
+    {
+      "input": "kr-625157502745",
+      "rea": "KR-625157502745",
+      "provinceCode": "KR",
+      "serialNumber": "625157502745"
+    },
+    {
+      "input": "ks-784068088781",
+      "rea": "KS-784068088781",
+      "provinceCode": "KS",
+      "serialNumber": "784068088781"
+    },
+    {
+      "input": "kx-371785783742",
+      "rea": "KX-371785783742",
+      "provinceCode": "KX",
+      "serialNumber": "371785783742"
+    },
+    {
+      "input": "lb-457872513314",
+      "rea": "LB-457872513314",
+      "provinceCode": "LB",
+      "serialNumber": "457872513314"
+    },
+    {
+      "input": "lc-267032230508",
+      "rea": "LC-267032230508",
+      "provinceCode": "LC",
+      "serialNumber": "267032230508"
+    },
+    {
+      "input": "le-515672724471",
+      "rea": "LE-515672724471",
+      "provinceCode": "LE",
+      "serialNumber": "515672724471"
+    },
+    {
+      "input": "lf-629241238732",
+      "rea": "LF-629241238732",
+      "provinceCode": "LF",
+      "serialNumber": "629241238732"
+    },
+    {
+      "input": "lh-398009800655",
+      "rea": "LH-398009800655",
+      "provinceCode": "LH",
+      "serialNumber": "398009800655"
+    },
+    {
+      "input": "ll-137153624611",
+      "rea": "LL-137153624611",
+      "provinceCode": "LL",
+      "serialNumber": "137153624611"
+    },
+    {
+      "input": "lp-357686006519",
+      "rea": "LP-357686006519",
+      "provinceCode": "LP",
+      "serialNumber": "357686006519"
+    },
+    {
+      "input": "ls-447930038941",
+      "rea": "LS-447930038941",
+      "provinceCode": "LS",
+      "serialNumber": "447930038941"
+    },
+    {
+      "input": "lu-315557488437",
+      "rea": "LU-315557488437",
+      "provinceCode": "LU",
+      "serialNumber": "315557488437"
+    },
+    {
+      "input": "lx-328175081198",
+      "rea": "LX-328175081198",
+      "provinceCode": "LX",
+      "serialNumber": "328175081198"
+    },
+    {
+      "input": "ly-28990834744",
+      "rea": "LY-28990834744",
+      "provinceCode": "LY",
+      "serialNumber": "28990834744"
+    },
+    {
+      "input": "ma-16624236260",
+      "rea": "MA-16624236260",
+      "provinceCode": "MA",
+      "serialNumber": "16624236260"
+    },
+    {
+      "input": "mb-178473272831",
+      "rea": "MB-178473272831",
+      "provinceCode": "MB",
+      "serialNumber": "178473272831"
+    },
+    {
+      "input": "mc-980746296061",
+      "rea": "MC-980746296061",
+      "provinceCode": "MC",
+      "serialNumber": "980746296061"
+    },
+    {
+      "input": "mf-692264461491",
+      "rea": "MF-692264461491",
+      "provinceCode": "MF",
+      "serialNumber": "692264461491"
+    },
+    {
+      "input": "mg-659153776513",
+      "rea": "MG-659153776513",
+      "provinceCode": "MG",
+      "serialNumber": "659153776513"
+    },
+    {
+      "input": "mi-625805635987",
+      "rea": "MI-625805635987",
+      "provinceCode": "MI",
+      "serialNumber": "625805635987"
+    },
+    {
+      "input": "mk-369515235781",
+      "rea": "MK-369515235781",
+      "provinceCode": "MK",
+      "serialNumber": "369515235781"
+    },
+    {
+      "input": "mn-262121483290",
+      "rea": "MN-262121483290",
+      "provinceCode": "MN",
+      "serialNumber": "262121483290"
+    },
+    {
+      "input": "mp-298242333588",
+      "rea": "MP-298242333588",
+      "provinceCode": "MP",
+      "serialNumber": "298242333588"
+    },
+    {
+      "input": "mq-635706521951",
+      "rea": "MQ-635706521951",
+      "provinceCode": "MQ",
+      "serialNumber": "635706521951"
+    },
+    {
+      "input": "ms-641362908699",
+      "rea": "MS-641362908699",
+      "provinceCode": "MS",
+      "serialNumber": "641362908699"
+    },
+    {
+      "input": "mw-455088122280",
+      "rea": "MW-455088122280",
+      "provinceCode": "MW",
+      "serialNumber": "455088122280"
+    },
+    {
+      "input": "nd-419094187360",
+      "rea": "ND-419094187360",
+      "provinceCode": "ND",
+      "serialNumber": "419094187360"
+    },
+    {
+      "input": "ng-645174135168",
+      "rea": "NG-645174135168",
+      "provinceCode": "NG",
+      "serialNumber": "645174135168"
+    },
+    {
+      "input": "nj-84301237369",
+      "rea": "NJ-84301237369",
+      "provinceCode": "NJ",
+      "serialNumber": "84301237369"
+    },
+    {
+      "input": "nl-443574324518",
+      "rea": "NL-443574324518",
+      "provinceCode": "NL",
+      "serialNumber": "443574324518"
+    },
+    {
+      "input": "no-778282014115",
+      "rea": "NO-778282014115",
+      "provinceCode": "NO",
+      "serialNumber": "778282014115"
+    },
+    {
+      "input": "np-584280208349",
+      "rea": "NP-584280208349",
+      "provinceCode": "NP",
+      "serialNumber": "584280208349"
+    },
+    {
+      "input": "nq-401126788071",
+      "rea": "NQ-401126788071",
+      "provinceCode": "NQ",
+      "serialNumber": "401126788071"
+    },
+    {
+      "input": "nr-59082974182",
+      "rea": "NR-59082974182",
+      "provinceCode": "NR",
+      "serialNumber": "59082974182"
+    },
+    {
+      "input": "nt-35029964388",
+      "rea": "NT-35029964388",
+      "provinceCode": "NT",
+      "serialNumber": "35029964388"
+    },
+    {
+      "input": "nw-706069235790",
+      "rea": "NW-706069235790",
+      "provinceCode": "NW",
+      "serialNumber": "706069235790"
+    },
+    {
+      "input": "nx-891590725904",
+      "rea": "NX-891590725904",
+      "provinceCode": "NX",
+      "serialNumber": "891590725904"
+    },
+    {
+      "input": "ny-637029639153",
+      "rea": "NY-637029639153",
+      "provinceCode": "NY",
+      "serialNumber": "637029639153"
+    },
+    {
+      "input": "ob-221382818654",
+      "rea": "OB-221382818654",
+      "provinceCode": "OB",
+      "serialNumber": "221382818654"
+    },
+    {
+      "input": "oe-560145432311",
+      "rea": "OE-560145432311",
+      "provinceCode": "OE",
+      "serialNumber": "560145432311"
+    },
+    {
+      "input": "of-544236657920",
+      "rea": "OF-544236657920",
+      "provinceCode": "OF",
+      "serialNumber": "544236657920"
+    },
+    {
+      "input": "ol-254076258467",
+      "rea": "OL-254076258467",
+      "provinceCode": "OL",
+      "serialNumber": "254076258467"
+    },
+    {
+      "input": "om-779532515172",
+      "rea": "OM-779532515172",
+      "provinceCode": "OM",
+      "serialNumber": "779532515172"
+    },
+    {
+      "input": "on-384435205578",
+      "rea": "ON-384435205578",
+      "provinceCode": "ON",
+      "serialNumber": "384435205578"
+    },
+    {
+      "input": "op-310289616099",
+      "rea": "OP-310289616099",
+      "provinceCode": "OP",
+      "serialNumber": "310289616099"
+    },
+    {
+      "input": "ov-549968786563",
+      "rea": "OV-549968786563",
+      "provinceCode": "OV",
+      "serialNumber": "549968786563"
+    },
+    {
+      "input": "ow-326520042725",
+      "rea": "OW-326520042725",
+      "provinceCode": "OW",
+      "serialNumber": "326520042725"
+    },
+    {
+      "input": "oy-337157156626",
+      "rea": "OY-337157156626",
+      "provinceCode": "OY",
+      "serialNumber": "337157156626"
+    },
+    {
+      "input": "oz-237805254937",
+      "rea": "OZ-237805254937",
+      "provinceCode": "OZ",
+      "serialNumber": "237805254937"
+    },
+    {
+      "input": "pb-250039806482",
+      "rea": "PB-250039806482",
+      "provinceCode": "PB",
+      "serialNumber": "250039806482"
+    },
+    {
+      "input": "pe-424772912777",
+      "rea": "PE-424772912777",
+      "provinceCode": "PE",
+      "serialNumber": "424772912777"
+    },
+    {
+      "input": "pf-95914684005",
+      "rea": "PF-95914684005",
+      "provinceCode": "PF",
+      "serialNumber": "95914684005"
+    },
+    {
+      "input": "pg-426283249734",
+      "rea": "PG-426283249734",
+      "provinceCode": "PG",
+      "serialNumber": "426283249734"
+    },
+    {
+      "input": "pi-77423436355",
+      "rea": "PI-77423436355",
+      "provinceCode": "PI",
+      "serialNumber": "77423436355"
+    },
+    {
+      "input": "pj-972319719756",
+      "rea": "PJ-972319719756",
+      "provinceCode": "PJ",
+      "serialNumber": "972319719756"
+    },
+    {
+      "input": "pk-280978119427",
+      "rea": "PK-280978119427",
+      "provinceCode": "PK",
+      "serialNumber": "280978119427"
+    },
+    {
+      "input": "pl-954614449129",
+      "rea": "PL-954614449129",
+      "provinceCode": "PL",
+      "serialNumber": "954614449129"
+    },
+    {
+      "input": "pm-816666033954",
+      "rea": "PM-816666033954",
+      "provinceCode": "PM",
+      "serialNumber": "816666033954"
+    },
+    {
+      "input": "po-822673057936",
+      "rea": "PO-822673057936",
+      "provinceCode": "PO",
+      "serialNumber": "822673057936"
+    },
+    {
+      "input": "pp-49180042526",
+      "rea": "PP-49180042526",
+      "provinceCode": "PP",
+      "serialNumber": "49180042526"
+    },
+    {
+      "input": "ps-733034699287",
+      "rea": "PS-733034699287",
+      "provinceCode": "PS",
+      "serialNumber": "733034699287"
+    },
+    {
+      "input": "pu-532820641246",
+      "rea": "PU-532820641246",
+      "provinceCode": "PU",
+      "serialNumber": "532820641246"
+    },
+    {
+      "input": "pv-188740224179",
+      "rea": "PV-188740224179",
+      "provinceCode": "PV",
+      "serialNumber": "188740224179"
+    },
+    {
+      "input": "py-330045630383",
+      "rea": "PY-330045630383",
+      "provinceCode": "PY",
+      "serialNumber": "330045630383"
+    },
+    {
+      "input": "qe-456789965837",
+      "rea": "QE-456789965837",
+      "provinceCode": "QE",
+      "serialNumber": "456789965837"
+    },
+    {
+      "input": "qf-590496434829",
+      "rea": "QF-590496434829",
+      "provinceCode": "QF",
+      "serialNumber": "590496434829"
+    },
+    {
+      "input": "qi-984967846016",
+      "rea": "QI-984967846016",
+      "provinceCode": "QI",
+      "serialNumber": "984967846016"
+    },
+    {
+      "input": "qk-543461650427",
+      "rea": "QK-543461650427",
+      "provinceCode": "QK",
+      "serialNumber": "543461650427"
+    },
+    {
+      "input": "ql-341870925553",
+      "rea": "QL-341870925553",
+      "provinceCode": "QL",
+      "serialNumber": "341870925553"
+    },
+    {
+      "input": "qn-182968478265",
+      "rea": "QN-182968478265",
+      "provinceCode": "QN",
+      "serialNumber": "182968478265"
+    },
+    {
+      "input": "qr-61988830973",
+      "rea": "QR-61988830973",
+      "provinceCode": "QR",
+      "serialNumber": "61988830973"
+    },
+    {
+      "input": "qt-475184784505",
+      "rea": "QT-475184784505",
+      "provinceCode": "QT",
+      "serialNumber": "475184784505"
+    },
+    {
+      "input": "qw-766994038541",
+      "rea": "QW-766994038541",
+      "provinceCode": "QW",
+      "serialNumber": "766994038541"
+    },
+    {
+      "input": "qx-388837468607",
+      "rea": "QX-388837468607",
+      "provinceCode": "QX",
+      "serialNumber": "388837468607"
+    },
+    {
+      "input": "rj-708722610503",
+      "rea": "RJ-708722610503",
+      "provinceCode": "RJ",
+      "serialNumber": "708722610503"
+    },
+    {
+      "input": "rl-211027922425",
+      "rea": "RL-211027922425",
+      "provinceCode": "RL",
+      "serialNumber": "211027922425"
+    },
+    {
+      "input": "rm-482478860007",
+      "rea": "RM-482478860007",
+      "provinceCode": "RM",
+      "serialNumber": "482478860007"
+    },
+    {
+      "input": "rn-561137345474",
+      "rea": "RN-561137345474",
+      "provinceCode": "RN",
+      "serialNumber": "561137345474"
+    },
+    {
+      "input": "rs-63808374110",
+      "rea": "RS-63808374110",
+      "provinceCode": "RS",
+      "serialNumber": "63808374110"
+    },
+    {
+      "input": "rt-664232463289",
+      "rea": "RT-664232463289",
+      "provinceCode": "RT",
+      "serialNumber": "664232463289"
+    },
+    {
+      "input": "ru-255360989719",
+      "rea": "RU-255360989719",
+      "provinceCode": "RU",
+      "serialNumber": "255360989719"
+    },
+    {
+      "input": "rv-63567814503",
+      "rea": "RV-63567814503",
+      "provinceCode": "RV",
+      "serialNumber": "63567814503"
+    },
+    {
+      "input": "rw-525166811034",
+      "rea": "RW-525166811034",
+      "provinceCode": "RW",
+      "serialNumber": "525166811034"
+    },
+    {
+      "input": "rx-702982661831",
+      "rea": "RX-702982661831",
+      "provinceCode": "RX",
+      "serialNumber": "702982661831"
+    },
+    {
+      "input": "sd-598581485983",
+      "rea": "SD-598581485983",
+      "provinceCode": "SD",
+      "serialNumber": "598581485983"
+    },
+    {
+      "input": "se-350144608285",
+      "rea": "SE-350144608285",
+      "provinceCode": "SE",
+      "serialNumber": "350144608285"
+    },
+    {
+      "input": "sf-547610707881",
+      "rea": "SF-547610707881",
+      "provinceCode": "SF",
+      "serialNumber": "547610707881"
+    },
+    {
+      "input": "sg-807034065631",
+      "rea": "SG-807034065631",
+      "provinceCode": "SG",
+      "serialNumber": "807034065631"
+    },
+    {
+      "input": "si-595913595426",
+      "rea": "SI-595913595426",
+      "provinceCode": "SI",
+      "serialNumber": "595913595426"
+    },
+    {
+      "input": "sl-184422058056",
+      "rea": "SL-184422058056",
+      "provinceCode": "SL",
+      "serialNumber": "184422058056"
+    },
+    {
+      "input": "sp-421926578587",
+      "rea": "SP-421926578587",
+      "provinceCode": "SP",
+      "serialNumber": "421926578587"
+    },
+    {
+      "input": "sq-773677995732",
+      "rea": "SQ-773677995732",
+      "provinceCode": "SQ",
+      "serialNumber": "773677995732"
+    },
+    {
+      "input": "sv-574402716139",
+      "rea": "SV-574402716139",
+      "provinceCode": "SV",
+      "serialNumber": "574402716139"
+    },
+    {
+      "input": "sw-880661898765",
+      "rea": "SW-880661898765",
+      "provinceCode": "SW",
+      "serialNumber": "880661898765"
+    },
+    {
+      "input": "sy-131560568527",
+      "rea": "SY-131560568527",
+      "provinceCode": "SY",
+      "serialNumber": "131560568527"
+    },
+    {
+      "input": "sz-60721501775",
+      "rea": "SZ-60721501775",
+      "provinceCode": "SZ",
+      "serialNumber": "60721501775"
+    },
+    {
+      "input": "ta-575414390643",
+      "rea": "TA-575414390643",
+      "provinceCode": "TA",
+      "serialNumber": "575414390643"
+    },
+    {
+      "input": "tc-905856260539",
+      "rea": "TC-905856260539",
+      "provinceCode": "TC",
+      "serialNumber": "905856260539"
+    },
+    {
+      "input": "td-971778677933",
+      "rea": "TD-971778677933",
+      "provinceCode": "TD",
+      "serialNumber": "971778677933"
+    },
+    {
+      "input": "te-234176642861",
+      "rea": "TE-234176642861",
+      "provinceCode": "TE",
+      "serialNumber": "234176642861"
+    },
+    {
+      "input": "tf-251640642589",
+      "rea": "TF-251640642589",
+      "provinceCode": "TF",
+      "serialNumber": "251640642589"
+    },
+    {
+      "input": "tg-313568329029",
+      "rea": "TG-313568329029",
+      "provinceCode": "TG",
+      "serialNumber": "313568329029"
+    },
+    {
+      "input": "th-746846326987",
+      "rea": "TH-746846326987",
+      "provinceCode": "TH",
+      "serialNumber": "746846326987"
+    },
+    {
+      "input": "ti-387704003019",
+      "rea": "TI-387704003019",
+      "provinceCode": "TI",
+      "serialNumber": "387704003019"
+    },
+    {
+      "input": "tk-629233601176",
+      "rea": "TK-629233601176",
+      "provinceCode": "TK",
+      "serialNumber": "629233601176"
+    },
+    {
+      "input": "tl-796547542816",
+      "rea": "TL-796547542816",
+      "provinceCode": "TL",
+      "serialNumber": "796547542816"
+    },
+    {
+      "input": "tp-260963605294",
+      "rea": "TP-260963605294",
+      "provinceCode": "TP",
+      "serialNumber": "260963605294"
+    },
+    {
+      "input": "tq-126214755131",
+      "rea": "TQ-126214755131",
+      "provinceCode": "TQ",
+      "serialNumber": "126214755131"
+    },
+    {
+      "input": "tr-896901008262",
+      "rea": "TR-896901008262",
+      "provinceCode": "TR",
+      "serialNumber": "896901008262"
+    },
+    {
+      "input": "tt-267400489182",
+      "rea": "TT-267400489182",
+      "provinceCode": "TT",
+      "serialNumber": "267400489182"
+    },
+    {
+      "input": "ty-464366950398",
+      "rea": "TY-464366950398",
+      "provinceCode": "TY",
+      "serialNumber": "464366950398"
+    },
+    {
+      "input": "ub-75804372172",
+      "rea": "UB-75804372172",
+      "provinceCode": "UB",
+      "serialNumber": "75804372172"
+    },
+    {
+      "input": "uc-869775139897",
+      "rea": "UC-869775139897",
+      "provinceCode": "UC",
+      "serialNumber": "869775139897"
+    },
+    {
+      "input": "ud-797963091897",
+      "rea": "UD-797963091897",
+      "provinceCode": "UD",
+      "serialNumber": "797963091897"
+    },
+    {
+      "input": "ue-423413843864",
+      "rea": "UE-423413843864",
+      "provinceCode": "UE",
+      "serialNumber": "423413843864"
+    },
+    {
+      "input": "ui-531701077674",
+      "rea": "UI-531701077674",
+      "provinceCode": "UI",
+      "serialNumber": "531701077674"
+    },
+    {
+      "input": "uj-919738135681",
+      "rea": "UJ-919738135681",
+      "provinceCode": "UJ",
+      "serialNumber": "919738135681"
+    },
+    {
+      "input": "uk-347332734105",
+      "rea": "UK-347332734105",
+      "provinceCode": "UK",
+      "serialNumber": "347332734105"
+    },
+    {
+      "input": "um-338839658693",
+      "rea": "UM-338839658693",
+      "provinceCode": "UM",
+      "serialNumber": "338839658693"
+    },
+    {
+      "input": "un-833612497490",
+      "rea": "UN-833612497490",
+      "provinceCode": "UN",
+      "serialNumber": "833612497490"
+    },
+    {
+      "input": "uo-515605278217",
+      "rea": "UO-515605278217",
+      "provinceCode": "UO",
+      "serialNumber": "515605278217"
+    },
+    {
+      "input": "ut-640682601966",
+      "rea": "UT-640682601966",
+      "provinceCode": "UT",
+      "serialNumber": "640682601966"
+    },
+    {
+      "input": "ux-706913746711",
+      "rea": "UX-706913746711",
+      "provinceCode": "UX",
+      "serialNumber": "706913746711"
+    },
+    {
+      "input": "vc-990531230671",
+      "rea": "VC-990531230671",
+      "provinceCode": "VC",
+      "serialNumber": "990531230671"
+    },
+    {
+      "input": "ve-319506584434",
+      "rea": "VE-319506584434",
+      "provinceCode": "VE",
+      "serialNumber": "319506584434"
+    },
+    {
+      "input": "vf-632144280437",
+      "rea": "VF-632144280437",
+      "provinceCode": "VF",
+      "serialNumber": "632144280437"
+    },
+    {
+      "input": "vg-136721950971",
+      "rea": "VG-136721950971",
+      "provinceCode": "VG",
+      "serialNumber": "136721950971"
+    },
+    {
+      "input": "vh-438619213046",
+      "rea": "VH-438619213046",
+      "provinceCode": "VH",
+      "serialNumber": "438619213046"
+    },
+    {
+      "input": "vi-433978127200",
+      "rea": "VI-433978127200",
+      "provinceCode": "VI",
+      "serialNumber": "433978127200"
+    },
+    {
+      "input": "vt-500823607939",
+      "rea": "VT-500823607939",
+      "provinceCode": "VT",
+      "serialNumber": "500823607939"
+    },
+    {
+      "input": "vu-144984060049",
+      "rea": "VU-144984060049",
+      "provinceCode": "VU",
+      "serialNumber": "144984060049"
+    },
+    {
+      "input": "vw-220133407660",
+      "rea": "VW-220133407660",
+      "provinceCode": "VW",
+      "serialNumber": "220133407660"
+    },
+    {
+      "input": "wb-550144716511",
+      "rea": "WB-550144716511",
+      "provinceCode": "WB",
+      "serialNumber": "550144716511"
+    },
+    {
+      "input": "wd-605736855935",
+      "rea": "WD-605736855935",
+      "provinceCode": "WD",
+      "serialNumber": "605736855935"
+    },
+    {
+      "input": "wf-691103551213",
+      "rea": "WF-691103551213",
+      "provinceCode": "WF",
+      "serialNumber": "691103551213"
+    },
+    {
+      "input": "wh-910417355351",
+      "rea": "WH-910417355351",
+      "provinceCode": "WH",
+      "serialNumber": "910417355351"
+    },
+    {
+      "input": "wj-874581576671",
+      "rea": "WJ-874581576671",
+      "provinceCode": "WJ",
+      "serialNumber": "874581576671"
+    },
+    {
+      "input": "wm-280155898549",
+      "rea": "WM-280155898549",
+      "provinceCode": "WM",
+      "serialNumber": "280155898549"
+    },
+    {
+      "input": "wn-384561266669",
+      "rea": "WN-384561266669",
+      "provinceCode": "WN",
+      "serialNumber": "384561266669"
+    },
+    {
+      "input": "wp-328142839730",
+      "rea": "WP-328142839730",
+      "provinceCode": "WP",
+      "serialNumber": "328142839730"
+    },
+    {
+      "input": "wq-361003227779",
+      "rea": "WQ-361003227779",
+      "provinceCode": "WQ",
+      "serialNumber": "361003227779"
+    },
+    {
+      "input": "wx-933334943981",
+      "rea": "WX-933334943981",
+      "provinceCode": "WX",
+      "serialNumber": "933334943981"
+    },
+    {
+      "input": "wz-115178365047",
+      "rea": "WZ-115178365047",
+      "provinceCode": "WZ",
+      "serialNumber": "115178365047"
+    },
+    {
+      "input": "xa-332285441680",
+      "rea": "XA-332285441680",
+      "provinceCode": "XA",
+      "serialNumber": "332285441680"
+    },
+    {
+      "input": "xb-912438871123",
+      "rea": "XB-912438871123",
+      "provinceCode": "XB",
+      "serialNumber": "912438871123"
+    },
+    {
+      "input": "xd-809921200853",
+      "rea": "XD-809921200853",
+      "provinceCode": "XD",
+      "serialNumber": "809921200853"
+    },
+    {
+      "input": "xg-259291077266",
+      "rea": "XG-259291077266",
+      "provinceCode": "XG",
+      "serialNumber": "259291077266"
+    },
+    {
+      "input": "xi-185121071419",
+      "rea": "XI-185121071419",
+      "provinceCode": "XI",
+      "serialNumber": "185121071419"
+    },
+    {
+      "input": "xk-729125576930",
+      "rea": "XK-729125576930",
+      "provinceCode": "XK",
+      "serialNumber": "729125576930"
+    },
+    {
+      "input": "xl-991316568014",
+      "rea": "XL-991316568014",
+      "provinceCode": "XL",
+      "serialNumber": "991316568014"
+    },
+    {
+      "input": "xn-243429305288",
+      "rea": "XN-243429305288",
+      "provinceCode": "XN",
+      "serialNumber": "243429305288"
+    },
+    {
+      "input": "xo-929135643403",
+      "rea": "XO-929135643403",
+      "provinceCode": "XO",
+      "serialNumber": "929135643403"
+    },
+    {
+      "input": "xp-199848861503",
+      "rea": "XP-199848861503",
+      "provinceCode": "XP",
+      "serialNumber": "199848861503"
+    },
+    {
+      "input": "xs-224344322844",
+      "rea": "XS-224344322844",
+      "provinceCode": "XS",
+      "serialNumber": "224344322844"
+    },
+    {
+      "input": "xt-381251777002",
+      "rea": "XT-381251777002",
+      "provinceCode": "XT",
+      "serialNumber": "381251777002"
+    },
+    {
+      "input": "xv-990401880611",
+      "rea": "XV-990401880611",
+      "provinceCode": "XV",
+      "serialNumber": "990401880611"
+    },
+    {
+      "input": "xw-969756343336",
+      "rea": "XW-969756343336",
+      "provinceCode": "XW",
+      "serialNumber": "969756343336"
+    },
+    {
+      "input": "xz-749327857166",
+      "rea": "XZ-749327857166",
+      "provinceCode": "XZ",
+      "serialNumber": "749327857166"
+    },
+    {
+      "input": "ya-466710255617",
+      "rea": "YA-466710255617",
+      "provinceCode": "YA",
+      "serialNumber": "466710255617"
+    },
+    {
+      "input": "yb-653074506197",
+      "rea": "YB-653074506197",
+      "provinceCode": "YB",
+      "serialNumber": "653074506197"
+    },
+    {
+      "input": "yc-422014998140",
+      "rea": "YC-422014998140",
+      "provinceCode": "YC",
+      "serialNumber": "422014998140"
+    },
+    {
+      "input": "yd-781678490671",
+      "rea": "YD-781678490671",
+      "provinceCode": "YD",
+      "serialNumber": "781678490671"
+    },
+    {
+      "input": "yg-637129016578",
+      "rea": "YG-637129016578",
+      "provinceCode": "YG",
+      "serialNumber": "637129016578"
+    },
+    {
+      "input": "yh-76365788565",
+      "rea": "YH-76365788565",
+      "provinceCode": "YH",
+      "serialNumber": "76365788565"
+    },
+    {
+      "input": "yk-887305529249",
+      "rea": "YK-887305529249",
+      "provinceCode": "YK",
+      "serialNumber": "887305529249"
+    },
+    {
+      "input": "yl-171662108005",
+      "rea": "YL-171662108005",
+      "provinceCode": "YL",
+      "serialNumber": "171662108005"
+    },
+    {
+      "input": "yp-728941021161",
+      "rea": "YP-728941021161",
+      "provinceCode": "YP",
+      "serialNumber": "728941021161"
+    },
+    {
+      "input": "yr-649816415664",
+      "rea": "YR-649816415664",
+      "provinceCode": "YR",
+      "serialNumber": "649816415664"
+    },
+    {
+      "input": "ys-319649471926",
+      "rea": "YS-319649471926",
+      "provinceCode": "YS",
+      "serialNumber": "319649471926"
+    },
+    {
+      "input": "yt-993685004408",
+      "rea": "YT-993685004408",
+      "provinceCode": "YT",
+      "serialNumber": "993685004408"
+    },
+    {
+      "input": "yu-683544481634",
+      "rea": "YU-683544481634",
+      "provinceCode": "YU",
+      "serialNumber": "683544481634"
+    },
+    {
+      "input": "yx-206166425393",
+      "rea": "YX-206166425393",
+      "provinceCode": "YX",
+      "serialNumber": "206166425393"
+    },
+    {
+      "input": "za-707227906363",
+      "rea": "ZA-707227906363",
+      "provinceCode": "ZA",
+      "serialNumber": "707227906363"
+    },
+    {
+      "input": "ze-412686783860",
+      "rea": "ZE-412686783860",
+      "provinceCode": "ZE",
+      "serialNumber": "412686783860"
+    },
+    {
+      "input": "zf-713195811407",
+      "rea": "ZF-713195811407",
+      "provinceCode": "ZF",
+      "serialNumber": "713195811407"
+    },
+    {
+      "input": "zh-898667622099",
+      "rea": "ZH-898667622099",
+      "provinceCode": "ZH",
+      "serialNumber": "898667622099"
+    },
+    {
+      "input": "zm-323233773557",
+      "rea": "ZM-323233773557",
+      "provinceCode": "ZM",
+      "serialNumber": "323233773557"
+    },
+    {
+      "input": "zn-994121247848",
+      "rea": "ZN-994121247848",
+      "provinceCode": "ZN",
+      "serialNumber": "994121247848"
+    },
+    {
+      "input": "zq-801478809661",
+      "rea": "ZQ-801478809661",
+      "provinceCode": "ZQ",
+      "serialNumber": "801478809661"
+    },
+    {
+      "input": "zs-778939337239",
+      "rea": "ZS-778939337239",
+      "provinceCode": "ZS",
+      "serialNumber": "778939337239"
+    },
+    {
+      "input": "zt-793701149781",
+      "rea": "ZT-793701149781",
+      "provinceCode": "ZT",
+      "serialNumber": "793701149781"
+    },
+    {
+      "input": "zu-854432692445",
+      "rea": "ZU-854432692445",
+      "provinceCode": "ZU",
+      "serialNumber": "854432692445"
+    },
+    {
+      "input": "zv-20836380268",
+      "rea": "ZV-20836380268",
+      "provinceCode": "ZV",
+      "serialNumber": "20836380268"
+    },
+    {
+      "input": "zx-878854928427",
+      "rea": "ZX-878854928427",
+      "provinceCode": "ZX",
+      "serialNumber": "878854928427"
+    },
+    {
+      "input": "zy-199156728687",
+      "rea": "ZY-199156728687",
+      "provinceCode": "ZY",
+      "serialNumber": "199156728687"
+    },
+    {
+      "input": "zz-452988774394",
+      "rea": "ZZ-452988774394",
+      "provinceCode": "ZZ",
+      "serialNumber": "452988774394"
+    }
+  ],
+  "invalid": [
+    {
+      "input": "",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "\u0000M-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": " M-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": " RM-1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "!M-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "+M-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "R\u0000-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "R -123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "R!-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "R+-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "R-1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM\u0000123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM 123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM!123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM+123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-\u000023456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM- 23456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-!23456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-+1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-+23456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM--1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1\u0000",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1\u00003456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1\t",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1\n",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1 ",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1 3456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1!3456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1+3456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1.0",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12\u0000456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12 456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12!456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12+456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-123\u000056",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-123 56",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-123!56",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-123+56",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1234\u00006",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1234 6",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1234!6",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1234+6",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12345\u0000",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12345 ",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12345!",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12345+",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12345_",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12345é",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1234_6",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1234é6",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-123_56",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-123é56",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12_456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-12é456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1_3456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1e3",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-1é3456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-_23456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-é23456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-١",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM-１",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RMM-1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM_123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RMé123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM–1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RM−1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "R_-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "Ré-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "RΜ-1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "_M-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "éM-123456",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    },
+    {
+      "input": "ＲM-1",
+      "error": "INVALID_ITALIAN_REA_STRUCTURE"
+    }
+  ]
+}

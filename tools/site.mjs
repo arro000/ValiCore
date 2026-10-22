@@ -1,0 +1,11 @@
+import { cp, mkdir, writeFile, rm } from 'node:fs/promises';
+import { join, resolve } from 'node:path';
+const root = resolve(import.meta.dirname, '..');
+const site = join(root, 'site');
+await rm(site, { recursive: true, force: true });
+await mkdir(site, { recursive: true });
+await cp(join(root, 'distribution'), join(site, 'dist'), { recursive: true });
+await cp(join(root, 'apps/demo/dist'), join(site, 'demo'), { recursive: true });
+await writeFile(join(site, '.nojekyll'), '');
+await writeFile(join(site, 'index.html'), '<!doctype html><html lang="en"><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=demo/"><title>ValiCore</title><a href="demo/">Open the ValiCore demo</a></html>\n');
+console.log('Static demo and distribution assembled in site/');

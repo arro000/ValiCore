@@ -1,0 +1,23 @@
+[package]
+name = "valicore-abi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Stable JSON ABI for ValiCore (WASM and native C)"
+repository.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = ["fiscal", "geo"]
+fiscal = ["valicore/fiscal"]
+geo = ["valicore/geo"]
+
+[build-dependencies]
+serde_json.workspace = true
+
+[dependencies]
+valicore = { path = "../valicore", default-features = false }
+serde.workspace = true
+serde_json.workspace = true

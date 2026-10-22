@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible problem with the latest ValiCore beta.
+title: "Bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use synthetic data only. Never post real personal/health identifiers, credentials or customer datasets.
+        Report exploitable vulnerabilities privately according to SECURITY.md, not with this form.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before reporting
+      options:
+        - label: I checked existing issues and the documented scope.
+          required: true
+        - label: My reproduction contains no private data or secrets.
+          required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and identities
+      description: Package version, runtime build/components, dataset edition, OS/architecture, Node/Python/browser version.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include a small runnable example with synthetic inputs and any relevant options.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and evidence
+      description: For rule/data disagreements, cite the authoritative source and applicable edition/date.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include structured error codes and safe logs. Distinguish unknown from false.
+    validations:
+      required: true

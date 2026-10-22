@@ -1,0 +1,13 @@
+/target/
+/node_modules/
+/apps/demo/dist/
+/packages/js/bundled/
+/site/
+/distribution/
+__pycache__/
+*.pyc
+.DS_Store
+/playwright-report/
+/test-results/
+/verification-reports/
+*.tgz

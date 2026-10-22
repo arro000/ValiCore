@@ -1,0 +1,13 @@
+[package]
+name = "valicore-geo-historical"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Geo-historical module: dated municipality, province and country catalog"
+repository.workspace = true
+
+[dependencies]
+valicore-foundation = { path = "../../valicore-foundation" }
+serde.workspace = true
+serde_json.workspace = true
+unicode-normalization.workspace = true

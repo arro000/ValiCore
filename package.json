@@ -1,0 +1,30 @@
+{
+  "name": "valicore-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/js", "apps/demo"],
+  "scripts": {
+    "sync:data": "python3 tools/data/sync.py",
+    "build:runtime": "cargo build -p valicore-abi --release --target wasm32-unknown-unknown",
+    "build:artifacts": "node tools/build.mjs",
+    "build:demo": "npm run test:demo-examples && npm run build --workspace apps/demo",
+    "build": "npm run build:runtime && npm run build:artifacts && npm run build:demo && node tools/site.mjs",
+    "test": "node --test packages/js/test/*.test.mjs",
+    "test:types": "tsc -p packages/js/tsconfig.test.json",
+    "test:docs": "python3 tools/test_documentation.py",
+    "test:python": "python3 tools/test_python.py",
+    "test:demo-examples": "node tools/test_demo_examples.mjs",
+    "test:extensive": "node tools/test_extensive.mjs",
+    "benchmark": "node --expose-gc tools/benchmark.mjs",
+    "benchmark:memory": "node tools/benchmark_memory.mjs",
+    "test:distribution": "python3 tools/test_distribution.py",
+    "dev": "npm run dev --workspace apps/demo",
+    "build:preview": "node tools/build.mjs --archived && npm run build:demo && node tools/site.mjs",
+    "prepreview": "npm run build:preview",
+    "preview": "python3 tools/serve.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "typescript": "^5.9.3"
+  }
+}

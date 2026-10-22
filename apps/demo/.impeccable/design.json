@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T09:48:52Z",
+  "title": "Design System: ValiCore demo",
+  "extensions": {
+    "colorMeta": {
+      "ink": {"role":"neutral","displayName":"Public-service ink","tonalRamp":["oklch(15% 0.054 248.2)","oklch(25% 0.054 248.2)","oklch(35% 0.054 248.2)","oklch(45% 0.054 248.2)","oklch(55% 0.054 248.2)","oklch(65% 0.054 248.2)","oklch(80% 0.054 248.2)","oklch(95% 0.054 248.2)"]},
+      "muted": {"role":"neutral","displayName":"Slate","tonalRamp":["oklch(15% 0.038 241.7)","oklch(25% 0.038 241.7)","oklch(35% 0.038 241.7)","oklch(45% 0.038 241.7)","oklch(55% 0.038 241.7)","oklch(65% 0.038 241.7)","oklch(80% 0.038 241.7)","oklch(95% 0.038 241.7)"]},
+      "accent": {"role":"primary","displayName":"Service teal","tonalRamp":["oklch(15% 0.082 174.4)","oklch(25% 0.082 174.4)","oklch(35% 0.082 174.4)","oklch(45% 0.082 174.4)","oklch(55% 0.082 174.4)","oklch(65% 0.082 174.4)","oklch(80% 0.082 174.4)","oklch(95% 0.082 174.4)"]},
+      "accent-hover": {"role":"primary","displayName":"Service teal hover","tonalRamp":["oklch(15% 0.069 174.9)","oklch(25% 0.069 174.9)","oklch(35% 0.069 174.9)","oklch(45% 0.069 174.9)","oklch(55% 0.069 174.9)","oklch(65% 0.069 174.9)","oklch(80% 0.069 174.9)","oklch(95% 0.069 174.9)"]},
+      "accent-active": {"role":"primary","displayName":"Service teal pressed","tonalRamp":["oklch(15% 0.057 175.2)","oklch(25% 0.057 175.2)","oklch(35% 0.057 175.2)","oklch(45% 0.057 175.2)","oklch(55% 0.057 175.2)","oklch(65% 0.057 175.2)","oklch(80% 0.057 175.2)","oklch(95% 0.057 175.2)"]},
+      "line": {"role":"neutral","displayName":"Panel boundary","tonalRamp":["oklch(15% 0.016 239.1)","oklch(25% 0.016 239.1)","oklch(35% 0.016 239.1)","oklch(45% 0.016 239.1)","oklch(55% 0.016 239.1)","oklch(65% 0.016 239.1)","oklch(80% 0.016 239.1)","oklch(95% 0.016 239.1)"]},
+      "tint": {"role":"neutral","displayName":"Runtime tint","tonalRamp":["oklch(15% 0.010 238.5)","oklch(25% 0.010 238.5)","oklch(35% 0.010 238.5)","oklch(45% 0.010 238.5)","oklch(55% 0.010 238.5)","oklch(65% 0.010 238.5)","oklch(80% 0.010 238.5)","oklch(95% 0.010 238.5)"]},
+      "page": {"role":"neutral","displayName":"Daylight page","tonalRamp":["oklch(15% 0.005 247.9)","oklch(25% 0.005 247.9)","oklch(35% 0.005 247.9)","oklch(45% 0.005 247.9)","oklch(55% 0.005 247.9)","oklch(65% 0.005 247.9)","oklch(80% 0.005 247.9)","oklch(95% 0.005 247.9)"]},
+      "surface": {"role":"neutral","displayName":"White workspace","tonalRamp":["oklch(15% 0 0)","oklch(25% 0 0)","oklch(35% 0 0)","oklch(45% 0 0)","oklch(55% 0 0)","oklch(65% 0 0)","oklch(80% 0 0)","oklch(95% 0 0)"]},
+      "output-surface": {"role":"neutral","displayName":"Output paper","tonalRamp":["oklch(15% 0.003 264.5)","oklch(25% 0.003 264.5)","oklch(35% 0.003 264.5)","oklch(45% 0.003 264.5)","oklch(55% 0.003 264.5)","oklch(65% 0.003 264.5)","oklch(80% 0.003 264.5)","oklch(95% 0.003 264.5)"]},
+      "focus": {"role":"primary","displayName":"Keyboard blue","tonalRamp":["oklch(15% 0.156 253.9)","oklch(25% 0.156 253.9)","oklch(35% 0.156 253.9)","oklch(45% 0.156 253.9)","oklch(55% 0.156 253.9)","oklch(65% 0.156 253.9)","oklch(80% 0.156 253.9)","oklch(95% 0.156 253.9)"]},
+      "selection": {"role":"neutral","displayName":"Selected text tint","tonalRamp":["oklch(15% 0.037 181.6)","oklch(25% 0.037 181.6)","oklch(35% 0.037 181.6)","oklch(45% 0.037 181.6)","oklch(55% 0.037 181.6)","oklch(65% 0.037 181.6)","oklch(80% 0.037 181.6)","oklch(95% 0.037 181.6)"]},
+      "field-line": {"role":"neutral","displayName":"Field boundary","tonalRamp":["oklch(15% 0.026 240.7)","oklch(25% 0.026 240.7)","oklch(35% 0.026 240.7)","oklch(45% 0.026 240.7)","oklch(55% 0.026 240.7)","oklch(65% 0.026 240.7)","oklch(80% 0.026 240.7)","oklch(95% 0.026 240.7)"]},
+      "field-line-hover": {"role":"neutral","displayName":"Field hover boundary","tonalRamp":["oklch(15% 0.036 231.5)","oklch(25% 0.036 231.5)","oklch(35% 0.036 231.5)","oklch(45% 0.036 231.5)","oklch(55% 0.036 231.5)","oklch(65% 0.036 231.5)","oklch(80% 0.036 231.5)","oklch(95% 0.036 231.5)"]},
+      "placeholder": {"role":"neutral","displayName":"Placeholder slate","tonalRamp":["oklch(15% 0.035 241.2)","oklch(25% 0.035 241.2)","oklch(35% 0.035 241.2)","oklch(45% 0.035 241.2)","oklch(55% 0.035 241.2)","oklch(65% 0.035 241.2)","oklch(80% 0.035 241.2)","oklch(95% 0.035 241.2)"]},
+      "runtime-ink": {"role":"neutral","displayName":"Runtime status ink","tonalRamp":["oklch(15% 0.047 234.8)","oklch(25% 0.047 234.8)","oklch(35% 0.047 234.8)","oklch(45% 0.047 234.8)","oklch(55% 0.047 234.8)","oklch(65% 0.047 234.8)","oklch(80% 0.047 234.8)","oklch(95% 0.047 234.8)"]},
+      "feature-hover": {"role":"neutral","displayName":"Feature hover wash","tonalRamp":["oklch(15% 0.008 216.6)","oklch(25% 0.008 216.6)","oklch(35% 0.008 216.6)","oklch(45% 0.008 216.6)","oklch(55% 0.008 216.6)","oklch(65% 0.008 216.6)","oklch(80% 0.008 216.6)","oklch(95% 0.008 216.6)"]},
+      "card-surface": {"role":"secondary","displayName":"Card blue stock","tonalRamp":["oklch(15% 0.020 238.7)","oklch(25% 0.020 238.7)","oklch(35% 0.020 238.7)","oklch(45% 0.020 238.7)","oklch(55% 0.020 238.7)","oklch(65% 0.020 238.7)","oklch(80% 0.020 238.7)","oklch(95% 0.020 238.7)"]},
+      "card-line": {"role":"secondary","displayName":"Card edge","tonalRamp":["oklch(15% 0.039 239.7)","oklch(25% 0.039 239.7)","oklch(35% 0.039 239.7)","oklch(45% 0.039 239.7)","oklch(55% 0.039 239.7)","oklch(65% 0.039 239.7)","oklch(80% 0.039 239.7)","oklch(95% 0.039 239.7)"]},
+      "card-ink": {"role":"secondary","displayName":"Card encoded ink","tonalRamp":["oklch(15% 0.072 244.0)","oklch(25% 0.072 244.0)","oklch(35% 0.072 244.0)","oklch(45% 0.072 244.0)","oklch(55% 0.072 244.0)","oklch(65% 0.072 244.0)","oklch(80% 0.072 244.0)","oklch(95% 0.072 244.0)"]},
+      "card-muted": {"role":"secondary","displayName":"Card captions","tonalRamp":["oklch(15% 0.055 241.0)","oklch(25% 0.055 241.0)","oklch(35% 0.055 241.0)","oklch(45% 0.055 241.0)","oklch(55% 0.055 241.0)","oklch(65% 0.055 241.0)","oklch(80% 0.055 241.0)","oklch(95% 0.055 241.0)"]},
+      "card-divider": {"role":"secondary","displayName":"Card internal rules","tonalRamp":["oklch(15% 0.040 241.1)","oklch(25% 0.040 241.1)","oklch(35% 0.040 241.1)","oklch(45% 0.040 241.1)","oklch(55% 0.040 241.1)","oklch(65% 0.040 241.1)","oklch(80% 0.040 241.1)","oklch(95% 0.040 241.1)"]},
+      "card-country-line": {"role":"secondary","displayName":"Country label edge","tonalRamp":["oklch(15% 0.046 240.1)","oklch(25% 0.046 240.1)","oklch(35% 0.046 240.1)","oklch(45% 0.046 240.1)","oklch(55% 0.046 240.1)","oklch(65% 0.046 240.1)","oklch(80% 0.046 240.1)","oklch(95% 0.046 240.1)"]},
+      "pass-ink": {"role":"secondary","displayName":"Passed check ink","tonalRamp":["oklch(15% 0.077 167.0)","oklch(25% 0.077 167.0)","oklch(35% 0.077 167.0)","oklch(45% 0.077 167.0)","oklch(55% 0.077 167.0)","oklch(65% 0.077 167.0)","oklch(80% 0.077 167.0)","oklch(95% 0.077 167.0)"]},
+      "pass-surface": {"role":"secondary","displayName":"Passed check wash","tonalRamp":["oklch(15% 0.017 164.7)","oklch(25% 0.017 164.7)","oklch(35% 0.017 164.7)","oklch(45% 0.017 164.7)","oklch(55% 0.017 164.7)","oklch(65% 0.017 164.7)","oklch(80% 0.017 164.7)","oklch(95% 0.017 164.7)"]},
+      "pass-line": {"role":"secondary","displayName":"Passed check edge","tonalRamp":["oklch(15% 0.039 162.2)","oklch(25% 0.039 162.2)","oklch(35% 0.039 162.2)","oklch(45% 0.039 162.2)","oklch(55% 0.039 162.2)","oklch(65% 0.039 162.2)","oklch(80% 0.039 162.2)","oklch(95% 0.039 162.2)"]},
+      "fail-ink": {"role":"secondary","displayName":"Failed check ink","tonalRamp":["oklch(15% 0.146 29.0)","oklch(25% 0.146 29.0)","oklch(35% 0.146 29.0)","oklch(45% 0.146 29.0)","oklch(55% 0.146 29.0)","oklch(65% 0.146 29.0)","oklch(80% 0.146 29.0)","oklch(95% 0.146 29.0)"]},
+      "fail-surface": {"role":"secondary","displayName":"Failure wash","tonalRamp":["oklch(15% 0.016 22.1)","oklch(25% 0.016 22.1)","oklch(35% 0.016 22.1)","oklch(45% 0.016 22.1)","oklch(55% 0.016 22.1)","oklch(65% 0.016 22.1)","oklch(80% 0.016 22.1)","oklch(95% 0.016 22.1)"]},
+      "fail-line": {"role":"secondary","displayName":"Failure edge","tonalRamp":["oklch(15% 0.068 24.4)","oklch(25% 0.068 24.4)","oklch(35% 0.068 24.4)","oklch(45% 0.068 24.4)","oklch(55% 0.068 24.4)","oklch(65% 0.068 24.4)","oklch(80% 0.068 24.4)","oklch(95% 0.068 24.4)"]},
+      "unknown-ink": {"role":"secondary","displayName":"Indeterminate ink","tonalRamp":["oklch(15% 0.085 76.3)","oklch(25% 0.085 76.3)","oklch(35% 0.085 76.3)","oklch(45% 0.085 76.3)","oklch(55% 0.085 76.3)","oklch(65% 0.085 76.3)","oklch(80% 0.085 76.3)","oklch(95% 0.085 76.3)"]},
+      "unknown-surface": {"role":"secondary","displayName":"Indeterminate wash","tonalRamp":["oklch(15% 0.030 85.6)","oklch(25% 0.030 85.6)","oklch(35% 0.030 85.6)","oklch(45% 0.030 85.6)","oklch(55% 0.030 85.6)","oklch(65% 0.030 85.6)","oklch(80% 0.030 85.6)","oklch(95% 0.030 85.6)"]},
+      "unknown-line": {"role":"secondary","displayName":"Indeterminate edge","tonalRamp":["oklch(15% 0.057 84.5)","oklch(25% 0.057 84.5)","oklch(35% 0.057 84.5)","oklch(45% 0.057 84.5)","oklch(55% 0.057 84.5)","oklch(65% 0.057 84.5)","oklch(80% 0.057 84.5)","oklch(95% 0.057 84.5)"]},
+      "code-ink": {"role":"neutral","displayName":"Integration code text","tonalRamp":["oklch(15% 0.019 243.0)","oklch(25% 0.019 243.0)","oklch(35% 0.019 243.0)","oklch(45% 0.019 243.0)","oklch(55% 0.019 243.0)","oklch(65% 0.019 243.0)","oklch(80% 0.019 243.0)","oklch(95% 0.019 243.0)"]},
+      "code-line": {"role":"neutral","displayName":"Code panel rules","tonalRamp":["oklch(15% 0.051 244.2)","oklch(25% 0.051 244.2)","oklch(35% 0.051 244.2)","oklch(45% 0.051 244.2)","oklch(55% 0.051 244.2)","oklch(65% 0.051 244.2)","oklch(80% 0.051 244.2)","oklch(95% 0.051 244.2)"]},
+      "code-control-surface": {"role":"neutral","displayName":"Code selector fill","tonalRamp":["oklch(15% 0.055 247.0)","oklch(25% 0.055 247.0)","oklch(35% 0.055 247.0)","oklch(45% 0.055 247.0)","oklch(55% 0.055 247.0)","oklch(65% 0.055 247.0)","oklch(80% 0.055 247.0)","oklch(95% 0.055 247.0)"]},
+      "code-control-line": {"role":"neutral","displayName":"Code selector edge","tonalRamp":["oklch(15% 0.044 244.1)","oklch(25% 0.044 244.1)","oklch(35% 0.044 244.1)","oklch(45% 0.044 244.1)","oklch(55% 0.044 244.1)","oklch(65% 0.044 244.1)","oklch(80% 0.044 244.1)","oklch(95% 0.044 244.1)"]},
+      "code-control-ink": {"role":"neutral","displayName":"Code selector text","tonalRamp":["oklch(15% 0.014 244.7)","oklch(25% 0.014 244.7)","oklch(35% 0.014 244.7)","oklch(45% 0.014 244.7)","oklch(55% 0.014 244.7)","oklch(65% 0.014 244.7)","oklch(80% 0.014 244.7)","oklch(95% 0.014 244.7)"]},
+      "code-muted": {"role":"neutral","displayName":"Code supporting text","tonalRamp":["oklch(15% 0.031 242.1)","oklch(25% 0.031 242.1)","oklch(35% 0.031 242.1)","oklch(45% 0.031 242.1)","oklch(55% 0.031 242.1)","oklch(65% 0.031 242.1)","oklch(80% 0.031 242.1)","oklch(95% 0.031 242.1)"]},
+      "code-selected": {"role":"neutral","displayName":"Selected language fill","tonalRamp":["oklch(15% 0.016 239.1)","oklch(25% 0.016 239.1)","oklch(35% 0.016 239.1)","oklch(45% 0.016 239.1)","oklch(55% 0.016 239.1)","oklch(65% 0.016 239.1)","oklch(80% 0.016 239.1)","oklch(95% 0.016 239.1)"]},
+      "code-hover-line": {"role":"neutral","displayName":"Language hover outline","tonalRamp":["oklch(15% 0.042 242.7)","oklch(25% 0.042 242.7)","oklch(35% 0.042 242.7)","oklch(45% 0.042 242.7)","oklch(55% 0.042 242.7)","oklch(65% 0.042 242.7)","oklch(80% 0.042 242.7)","oklch(95% 0.042 242.7)"]},
+      "syntax-string": {"role":"secondary","displayName":"Syntax mint","tonalRamp":["oklch(15% 0.068 177.1)","oklch(25% 0.068 177.1)","oklch(35% 0.068 177.1)","oklch(45% 0.068 177.1)","oklch(55% 0.068 177.1)","oklch(65% 0.068 177.1)","oklch(80% 0.068 177.1)","oklch(95% 0.068 177.1)"]},
+      "syntax-keyword": {"role":"secondary","displayName":"Syntax lavender","tonalRamp":["oklch(15% 0.073 292.7)","oklch(25% 0.073 292.7)","oklch(35% 0.073 292.7)","oklch(45% 0.073 292.7)","oklch(55% 0.073 292.7)","oklch(65% 0.073 292.7)","oklch(80% 0.073 292.7)","oklch(95% 0.073 292.7)"]},
+      "syntax-comment": {"role":"secondary","displayName":"Syntax blue-grey","tonalRamp":["oklch(15% 0.033 242.5)","oklch(25% 0.033 242.5)","oklch(35% 0.033 242.5)","oklch(45% 0.033 242.5)","oklch(55% 0.033 242.5)","oklch(65% 0.033 242.5)","oklch(80% 0.033 242.5)","oklch(95% 0.033 242.5)"]},
+      "syntax-number": {"role":"secondary","displayName":"Syntax amber","tonalRamp":["oklch(15% 0.085 81.0)","oklch(25% 0.085 81.0)","oklch(35% 0.085 81.0)","oklch(45% 0.085 81.0)","oklch(55% 0.085 81.0)","oklch(65% 0.085 81.0)","oklch(80% 0.085 81.0)","oklch(95% 0.085 81.0)"]},
+      "scrollbar-thumb": {"role":"neutral","displayName":"Overflow thumb","tonalRamp":["oklch(15% 0.036 238.9)","oklch(25% 0.036 238.9)","oklch(35% 0.036 238.9)","oklch(45% 0.036 238.9)","oklch(55% 0.036 238.9)","oklch(65% 0.036 238.9)","oklch(80% 0.036 238.9)","oklch(95% 0.036 238.9)"]},
+      "scrollbar-track": {"role":"neutral","displayName":"Place overflow track","tonalRamp":["oklch(15% 0.006 239.8)","oklch(25% 0.006 239.8)","oklch(35% 0.006 239.8)","oklch(45% 0.006 239.8)","oklch(55% 0.006 239.8)","oklch(65% 0.006 239.8)","oklch(80% 0.006 239.8)","oklch(95% 0.006 239.8)"]}
+    },
+    "typographyMeta": {
+      "display": {"displayName":"Hero","purpose":"Citizen-facing title; 28px at widths up to 760px."},
+      "headline": {"displayName":"Section headline","purpose":"Features, integration and documentation headings; 20px at widths up to 760px."},
+      "title": {"displayName":"Pane and result title","purpose":"Compact section titles; integration panel headers use 14px."},
+      "hero-body": {"displayName":"Hero explanation","purpose":"Short introductory instruction; 13px on mobile."},
+      "body": {"displayName":"Supporting body","purpose":"Readable docs and empty states, with context-specific line-height."},
+      "result": {"displayName":"Structured result","purpose":"Dense engine output and evidence."},
+      "label": {"displayName":"Field label","purpose":"Persistent visible form labels."},
+      "action": {"displayName":"Action label","purpose":"Primary/secondary action labels."},
+      "field": {"displayName":"Field value","purpose":"Native inputs/selects; 16px on mobile except specialized integration controls."},
+      "card-code": {"displayName":"Preview fiscal code","purpose":"Prominent encoded value; responsive sizes 20px, 22px and 19px."},
+      "code-output": {"displayName":"Calculated output","purpose":"Copyable fiscal code; 18px in the developer playground."},
+      "code-example": {"displayName":"Integration source","purpose":"Unwrapped, scrollable JS/TS examples."}
+    },
+    "shadows": [
+      {"name":"health-card","value":"0 8px 20px rgb(38 74 101 / 7%)","purpose":"Restrained depth on the demo preview only."}
+    ],
+    "motion": [
+      {"name":"feature-arrow","value":"transform 180ms ease-out; hover: translateX(3px)","purpose":"Small directional feedback on feature rows."},
+      {"name":"anchor-scroll","value":"scroll-behavior: smooth; scroll-padding-top: 24px","purpose":"Navigation and feature-to-tool movement."},
+      {"name":"reduced-motion","value":"scroll-behavior: auto; transition: none !important; animation: none !important","purpose":"Applied at prefers-reduced-motion: reduce."},
+      {"name":"copy-feedback-reset","value":"2200ms","purpose":"Restore the copy button label after success or clipboard failure."}
+    ],
+    "breakpoints": [
+      {"name":"compact-desktop","value":"1000px"},
+      {"name":"stacked-mobile","value":"760px"},
+      {"name":"narrow-mobile","value":"370px"}
+    ]
+  },
+  "components": [
+    {
+      "name":"Primary action",
+      "kind":"button",
+      "refersTo":"button-primary",
+      "description":"Teal submit control; runtime-dependent controls start disabled.",
+      "html":"<button class=\"ds-primary\" type=\"button\">Calculate fiscal code <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css":".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:44px;padding:11px 18px;border:1px solid transparent;border-radius:6px;background:var(--accent,#146957);color:#fff;font:600 13px 'Public Sans',system-ui,sans-serif;cursor:pointer}.ds-primary svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-primary:hover{background:var(--accent-hover,#0d5143)}.ds-primary:active{background:#083e33}.ds-primary:focus-visible{outline:3px solid var(--focus,#186cc3);outline-offset:3px}.ds-primary:disabled{opacity:.55;cursor:wait}"
+    },
+    {
+      "name":"Integration CTA",
+      "kind":"button",
+      "refersTo":"button-secondary",
+      "description":"White outlined hero link leading to the integration section.",
+      "html":"<a class=\"ds-secondary\" href=\"#developers\">Integrate the library <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css":".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:44px;padding:11px 18px;border:1px solid var(--line,#d4dfe7);border-radius:6px;background:#fff;color:var(--ink,#19334b);font:600 13px 'Public Sans',system-ui,sans-serif;text-decoration:none;white-space:nowrap}.ds-secondary svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-secondary:hover{border-color:var(--accent,#146957);color:var(--accent,#146957)}.ds-secondary:focus-visible{outline:3px solid var(--focus,#186cc3);outline-offset:3px}@media(max-width:760px){.ds-secondary{min-height:40px;font-size:12px;padding:9px 12px}}"
+    },
+    {
+      "name":"Text action",
+      "kind":"button",
+      "refersTo":"button-text",
+      "description":"Compact load-example and copy controls, with underlined hover feedback.",
+      "html":"<button class=\"ds-text\" type=\"button\">Load example</button>",
+      "css":".ds-text{padding:8px 4px;border:0;border-radius:3px;background:transparent;color:var(--accent,#146957);font:600 12px 'Public Sans',system-ui,sans-serif;cursor:pointer}.ds-text:hover{text-decoration:underline;text-underline-offset:3px}.ds-text:focus-visible{outline:3px solid var(--focus,#186cc3);outline-offset:3px}.ds-text:disabled{opacity:.55;cursor:wait}"
+    },
+    {
+      "name":"Labeled native field",
+      "kind":"input",
+      "refersTo":"input",
+      "description":"Persistent label, dated-place helper and readable mobile input text.",
+      "html":"<label class=\"ds-field\">Province of birth<input placeholder=\"Province name or abbreviation\" autocomplete=\"off\"/><small>Available for the birth date. Use EE for foreign countries.</small></label>",
+      "css":".ds-field{display:flex;flex-direction:column;gap:7px;min-width:0;color:var(--ink,#19334b);font:600 12px 'Public Sans',system-ui,sans-serif}.ds-field input{width:100%;min-width:0;min-height:44px;border:1px solid #b7c8d5;border-radius:5px;background:#fff;color:var(--ink,#19334b);padding:10px 12px;font:400 14px/1.4 'Public Sans',system-ui,sans-serif;caret-color:var(--accent,#146957)}.ds-field input::placeholder{color:#5c7181}.ds-field input:hover{border-color:#839dab}.ds-field input:focus{border-color:var(--focus,#186cc3)}.ds-field input:focus-visible{outline:3px solid var(--focus,#186cc3);outline-offset:3px}.ds-field input:disabled{opacity:.55;cursor:wait}.ds-field small{color:var(--muted,#526879);font-size:11px;line-height:1.5;font-weight:400}@media(max-width:760px){.ds-field input{font-size:16px}}"
+    },
+    {
+      "name":"Navigation and calculator tabs",
+      "kind":"nav",
+      "description":"Muted header links and square tabs with a teal selected underline; application code supplies roving focus and arrow-key activation.",
+      "html":"<nav class=\"ds-main-nav\" aria-label=\"Main navigation\"><a href=\"#features\">Features</a><a href=\"#developers\">Playground</a><a href=\"#documentation\">Docs</a><a class=\"ds-source\" href=\"https://github.com/arro000/ValiCore\" aria-label=\"Source code on GitHub\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 8-4 4 4 4m8-8 4 4-4 4m-3-11-2 22\"/></svg><span>Source</span></a></nav><nav class=\"ds-tabs\" role=\"tablist\" aria-label=\"Calculator tools\"><button role=\"tab\" aria-selected=\"true\">Calculate</button><button role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">Validate &amp; decode</button></nav>",
+      "css":".ds-main-nav{display:flex;gap:26px;align-items:center;font-family:'Public Sans',system-ui,sans-serif}.ds-main-nav a{color:var(--muted,#526879);font-size:13px;text-decoration:none}.ds-main-nav a:hover{color:var(--accent,#146957)}.ds-source{display:flex;gap:6px;align-items:center}.ds-source svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-tabs{display:flex;gap:22px;min-width:0;border-bottom:1px solid var(--line,#d4dfe7);font-family:'Public Sans',system-ui,sans-serif}.ds-tabs button{background:transparent;border:0;border-bottom:2px solid transparent;border-radius:0;padding:18px 0 16px;white-space:nowrap;color:var(--muted,#526879);font:500 13px 'Public Sans',system-ui,sans-serif;min-height:48px;cursor:pointer}.ds-tabs button:hover{color:var(--accent,#146957)}.ds-tabs button[aria-selected=true]{border-bottom-color:var(--accent,#146957);color:var(--accent,#146957);font-weight:650}.ds-main-nav a:focus-visible,.ds-tabs button:focus-visible{outline:3px solid var(--focus,#186cc3);outline-offset:3px}@media(max-width:760px){.ds-main-nav{gap:16px}.ds-main-nav a{font-size:11px}.ds-main-nav a:first-child,.ds-source span{display:none}}@media(max-width:370px){.ds-main-nav{gap:10px}}"
+    },
+    {
+      "name":"Validation check chips",
+      "kind":"chip",
+      "refersTo":"check-pass",
+      "description":"Noninteractive checks retain readable pass, fail and unknown labels.",
+      "html":"<div class=\"ds-check-list\"><span class=\"ds-check ds-pass\">structural: pass</span><span class=\"ds-check ds-fail\">checksum: fail</span><span class=\"ds-check ds-unknown\">territorial: unknown</span></div>",
+      "css":".ds-check-list{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}.ds-check{border:1px solid var(--line,#d4dfe7);padding:3px 7px;border-radius:4px;font:400 10px/1.6 'Public Sans',system-ui,sans-serif;background:var(--tint,#eef5fa)}.ds-pass{color:#105741;background:#e5f3ec;border-color:#b8d6c6}.ds-fail{color:#9d3026;background:#fff0ef;border-color:#e6ada8}.ds-unknown{color:#725016;background:#fbf1dc;border-color:#e0cca4}"
+    },
+    {
+      "name":"Health-card-inspired demo preview",
+      "kind":"card",
+      "refersTo":"health-card",
+      "description":"Actual encoded fields on pale-blue stock; always visibly a demo. data-stale=true dims the reset code area.",
+      "html":"<div class=\"ds-health-card\" aria-label=\"Fiscal code preview, not an official health card\"><div class=\"ds-card-heading\"><span>ValiCore</span><span class=\"ds-country\">IT</span></div><div class=\"ds-card-code\"><span>Fiscal code</span><strong>RSSMRA85C15H501R</strong></div><div class=\"ds-card-fields\"><div><span>Surname</span><strong>ROSSI</strong></div><div><span>Given name</span><strong>MARIO</strong></div><div><span>Date of birth</span><strong>1985-03-15</strong></div><div><span>Sex</span><strong>M</strong></div><div class=\"ds-card-place\"><span>Place of birth</span><strong>ROMA · RM</strong></div></div><div class=\"ds-card-footer\"><span>Health-card-inspired preview</span><span>DEMO · NOT AN OFFICIAL DOCUMENT</span></div></div>",
+      "css":".ds-health-card{background:#dfedf7;border:1px solid #b6d0e3;border-radius:13px;padding:22px;color:#1b4666;box-shadow:0 8px 20px rgb(38 74 101 / 7%);font-family:'Public Sans',system-ui,sans-serif}.ds-card-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-bottom:14px;border-bottom:1px solid #afc9dd;font-size:13px;font-weight:650}.ds-country{font-size:12px;font-weight:700;border:1px solid #8eacc2;border-radius:3px;padding:4px 7px}.ds-card-code{margin:20px 0}.ds-card-code span,.ds-card-fields span{display:block;font-size:11px;margin-bottom:5px;color:#3d5e76}.ds-card-code strong{display:block;font:600 23px/1.4 var(--mono,ui-monospace,SFMono-Regular,Consolas,monospace);letter-spacing:.045em;overflow-wrap:anywhere}.ds-card-fields{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px}.ds-card-fields strong{font-size:12px;line-height:1.4;font-weight:650;overflow-wrap:anywhere}.ds-card-place{grid-column:1/-1}.ds-card-footer{margin-top:20px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;border-top:1px solid #afc9dd;padding-top:12px;font-size:11px;line-height:1.5;color:#3d5e76}.ds-health-card[data-stale=true] .ds-card-code{opacity:.55}@media(max-width:1000px){.ds-card-code strong{font-size:20px}.ds-card-footer{flex-direction:column}.ds-card-heading{font-size:11px}}@media(max-width:760px){.ds-health-card{padding:20px}.ds-card-code strong{font-size:22px}.ds-card-footer{flex-direction:row}}@media(max-width:370px){.ds-card-code strong{font-size:19px}}"
+    },
+    {
+      "name":"Actionable feature row",
+      "kind":"button",
+      "description":"A ruled two-line entry that selects and focuses the corresponding live tool.",
+      "html":"<button class=\"ds-feature\" type=\"button\"><span class=\"ds-feature-title\">Validation &amp; inverse calculation</span><span>Four check levels. Explicit century candidates.</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css":".ds-feature{display:grid;grid-template-columns:1fr 20px;gap:5px 16px;align-items:center;text-align:left;background:transparent;color:var(--ink,#19334b);border:0;border-bottom:1px solid var(--line,#d4dfe7);padding:18px 4px;font-family:'Public Sans',system-ui,sans-serif;cursor:pointer}.ds-feature-title{font-size:13px;font-weight:600}.ds-feature>span:nth-child(2){grid-column:1;font-size:11px;color:var(--muted,#526879);line-height:1.5}.ds-feature svg{grid-column:2;grid-row:1/3;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;color:var(--muted,#526879);transition:transform 180ms ease-out}.ds-feature:hover{color:var(--accent,#146957);background:#edf4f6}.ds-feature:hover svg{transform:translateX(3px)}.ds-feature:focus-visible{outline:3px solid var(--focus,#186cc3);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-feature svg{transition:none!important}}"
+    },
+    {
+      "name":"Integration code panel",
+      "kind":"custom",
+      "refersTo":"code-workspace",
+      "description":"Dark JS/TS example surface with operation selection, copy action and pressed language state; preview represents styling rather than executing API code.",
+      "html":"<section class=\"ds-code-panel\"><div class=\"ds-code-header\"><h3>Integration example</h3><button class=\"ds-code-copy\" type=\"button\">Copy code</button></div><div class=\"ds-code-controls\"><select aria-label=\"Example operation\"><option>Calculate</option><option>Validate &amp; decode</option><option>Omocodia</option></select><div class=\"ds-language\" role=\"group\" aria-label=\"Example language\"><button type=\"button\" aria-pressed=\"true\">JavaScript</button><button type=\"button\" aria-pressed=\"false\">TypeScript</button></div></div><pre tabindex=\"0\" aria-label=\"Copyable integration code\"><code><span class=\"ds-keyword\">const</span> code = engine.encode({\n  name: <span class=\"ds-string\">'Mario'</span>, surname: <span class=\"ds-string\">'Rossi'</span>,\n  sex: <span class=\"ds-string\">'M'</span>, birthDate: <span class=\"ds-string\">'1985-03-15'</span>,\n  birthplace: { name: <span class=\"ds-string\">'Roma'</span>, province: <span class=\"ds-string\">'RM'</span> },\n});</code></pre><p class=\"ds-code-footnote\">Browser &amp; Node.js · ESM · TypeScript types included</p></section>",
+      "css":".ds-code-panel{color:#dce8f2;background:var(--ink,#19334b);border:1px solid var(--ink,#19334b);border-radius:var(--radius,10px);min-width:0;font-family:'Public Sans',system-ui,sans-serif}.ds-code-header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;border-bottom:1px solid #365269}.ds-code-header h3{margin:0;font-size:14px;font-weight:650;line-height:1.4}.ds-code-copy{padding:8px 4px;border:0;border-radius:3px;background:transparent;color:#a3e2d2;font:600 12px 'Public Sans',system-ui,sans-serif;cursor:pointer}.ds-code-copy:hover{text-decoration:underline;text-underline-offset:3px}.ds-code-controls{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding:16px 20px}.ds-code-controls select{background:#233f58;border:1px solid #577085;border-radius:5px;color:#e8f1f9;font:400 11px/1.4 'Public Sans',system-ui,sans-serif;width:auto;min-height:34px;padding:6px 10px;caret-color:var(--accent,#146957)}.ds-language{display:flex;gap:2px;align-items:center}.ds-language button{border:0;background:transparent;color:#b9cddd;border-radius:4px;font:400 11px 'Public Sans',system-ui,sans-serif;padding:9px;cursor:pointer}.ds-language button[aria-pressed=true]{color:var(--ink,#19334b);background:#e4eff7}.ds-language button:hover{outline:1px solid #8ba5ba}.ds-code-panel button:focus-visible,.ds-code-panel select:focus-visible,.ds-code-panel pre:focus-visible{outline:3px solid var(--focus,#186cc3);outline-offset:3px}.ds-code-panel pre{font:400 13px/1.8 var(--mono,ui-monospace,SFMono-Regular,Consolas,monospace);white-space:pre;max-width:100%;overflow:auto;min-height:355px;padding:0 20px 20px;margin:0;scrollbar-color:#94acbd transparent}.ds-code-panel code{font-family:var(--mono,ui-monospace,SFMono-Regular,Consolas,monospace)}.ds-string{color:#a3e2d2}.ds-keyword{color:#c5bcf0}.ds-code-footnote{border-top:1px solid #365269;padding:12px 20px;margin:0;font-size:11px;line-height:1.6;color:#b9cddd}@media(max-width:1000px){.ds-code-controls{flex-direction:column;align-items:flex-start}}@media(max-width:760px){.ds-code-controls{flex-direction:row}}@media(max-width:370px){.ds-code-controls{flex-direction:column}}"
+    },
+    {
+      "name":"Documentation disclosure",
+      "kind":"custom",
+      "description":"Native expandable topic paired with the API definition list; Quick start is open initially.",
+      "html":"<details class=\"ds-doc-topic\" open><summary>Quick start</summary><p>Initialize once with <code>await createValiCore()</code>. Reuse the engine for synchronous calls. Dates are Gregorian <code>YYYY-MM-DD</code> strings, with no timezone conversion.</p></details>",
+      "css":".ds-doc-topic{border-bottom:1px solid var(--line,#d4dfe7);padding:4px 0;color:var(--ink,#19334b);font:400 12px/1.7 'Public Sans',system-ui,sans-serif}.ds-doc-topic summary{cursor:pointer;font-size:12px;font-weight:600;padding:10px 0}.ds-doc-topic summary:focus-visible{outline:3px solid var(--focus,#186cc3);outline-offset:3px}.ds-doc-topic p{margin-top:0;color:var(--muted,#526879);font-size:13px;line-height:1.6}.ds-doc-topic code{font-family:var(--mono,ui-monospace,SFMono-Regular,Consolas,monospace)}"
+    }
+  ],
+  "narrative": {
+    "northStar":"Public-service clarity",
+    "overview":"Daylit, practical and compact: ink-blue text, pale-blue and white panels, teal actions, and small consistent corners make a working citizen calculator approachable. The health-card-inspired result is an encoded-data preview with an explicit demo label, not an official credential.\n\nThe same world supports denser developer tools. Monospace data and a dark integration-code panel distinguish technical evidence without changing the surrounding light interface. This documents the built implementation in `index.html`, `src/style.css` and `src/main.ts`; the direction contract remains in `.impeccable/surface.md`. General finish review: three material issues resolved; scoped disposition **ship**.",
+    "keyCharacteristics":[
+      "Citizen-first working forms and a readable result beside them.",
+      "Flat, bordered surfaces with restrained depth on the demo card.",
+      "Teal interaction cues and explicit, text-bearing validation states.",
+      "Light application chrome with a dedicated dark code surface."
+    ],
+    "rules":[{"name":"The Explicit State Rule","body":"Pair status color with a readable status label; indeterminate is a distinct outcome, not a failed check.","section":"colors"}],
+    "dos":[
+      "**Do** reuse the extracted teal, ink and daylight surfaces for working controls and evidence.",
+      "**Do** keep persistent field labels, visible keyboard focus and text-bearing check states.",
+      "**Do** invalidate stale results when input changes and keep the card's demo label visible.",
+      "**Do** stack major panels on mobile, preserve usable input text and contain code overflow.",
+      "**Do** retain the self-hosted Public Sans source and OFL license alongside the font."
+    ],
+    "donts":[
+      "**Don't** present the demo card, calculation or matching result as an official credential, registry allocation check or proof of identity.",
+      "**Don't** replace the citizen-first calculator with a dark console; reserve the dark surface for integration code.",
+      "**Don't** hide century ambiguity, historical place versions or indeterminate validation behind a single success/failure color.",
+      "**Don't** introduce official seals, raster decoration or unsupported language wrappers into this documented implementation."
+    ]
+  }
+}

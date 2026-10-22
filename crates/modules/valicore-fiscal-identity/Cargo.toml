@@ -1,0 +1,15 @@
+[package]
+name = "valicore-fiscal-identity"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Fiscal identity module: personal fiscal code, checksum and omocodia"
+repository.workspace = true
+
+[dependencies]
+valicore-foundation = { path = "../../valicore-foundation" }
+serde.workspace = true
+unicode-normalization.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

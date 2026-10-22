@@ -1,0 +1,21 @@
+[package]
+name = "valicore"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Engine facade composing the ValiCore domain modules"
+repository.workspace = true
+
+[features]
+default = ["fiscal", "geo"]
+fiscal = ["dep:valicore-fiscal-identity"]
+geo = ["dep:valicore-geo-historical"]
+
+[dependencies]
+valicore-foundation = { path = "../valicore-foundation" }
+valicore-fiscal-identity = { path = "../modules/valicore-fiscal-identity", optional = true }
+valicore-geo-historical = { path = "../modules/valicore-geo-historical", optional = true }
+serde.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true
