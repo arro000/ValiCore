@@ -25,10 +25,10 @@ from valicore._native import NativeLibrary
 ROOT = Path(os.environ["VALICORE_PYTHON_RESOURCES"])
 LIBRARY = ROOT / os.environ.get("VALICORE_PYTHON_LIBRARY", "libvalicore_abi.so")
 DATASET = ROOT / "places.json.gz"
-FISCAL = json.loads((ROOT / "fiscal-vectors.json").read_text())
-VAT = json.loads((ROOT / "italian-vat-vectors.json").read_text())
-REA = json.loads((ROOT / "italian-rea-vectors.json").read_text())
-HISTORY = json.loads((ROOT / "birthplace-history-vectors.json").read_text())
+FISCAL = json.loads((ROOT / "fiscal-vectors.json").read_bytes())
+VAT = json.loads((ROOT / "italian-vat-vectors.json").read_bytes())
+REA = json.loads((ROOT / "italian-rea-vectors.json").read_bytes())
+HISTORY = json.loads((ROOT / "birthplace-history-vectors.json").read_bytes())
 PERSON = {"name": "Mario", "surname": "Rossi", "sex": "M", "birthDate": "1985-03-15", "birthplace": {"belfioreCode": "H501"}}
 CODE = "RSSMRA85C15H501R"
 OBSERVATIONS = {}

@@ -1,4 +1,5 @@
 """Offline malformed-input checks for platform-wheel staging, before native loading."""
+import ast
 import gzip
 import hashlib
 import importlib.util
@@ -92,6 +93,19 @@ class WheelPreparationTests(unittest.TestCase):
         self.save()
         with self.assertRaises(ValueError):
             builder.prepare_bundle(self.composition)
+
+    def test_macos_single_arch_tags_follow_major_release_compatibility(self):
+        module = ast.parse((ROOT / 'packages/python/setup.py').read_text(encoding='utf-8'))
+        function = next(node for node in module.body if isinstance(node, ast.FunctionDef) and node.name == 'macos_platform_tag')
+        namespace = {}
+        exec(compile(ast.Module(body=[function], type_ignores=[]), '<macos wheel tags>', 'exec'), namespace)
+        tag = namespace['macos_platform_tag']
+        for architecture, suffix in [('x64', 'x86_64'), ('arm64', 'arm64')]:
+            self.assertEqual(tag('15.7.0', architecture), 'macosx_15_0_' + suffix)
+            self.assertEqual(tag('15.0', architecture), 'macosx_15_0_' + suffix)
+            self.assertEqual(tag('11.7.1', architecture), 'macosx_11_0_' + suffix)
+            self.assertNotIn('universal2', tag('15.7.0', architecture))
+        self.assertEqual(tag('10.15.7', 'x64'), 'macosx_10_15_x86_64')
 
     def test_existing_output_is_never_replaced(self):
         output = self.root / "owned-by-user"
