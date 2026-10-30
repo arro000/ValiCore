@@ -6,7 +6,6 @@ on:
     paths-ignore: ['data/**', 'artifacts/**', '.github/data-refresh-state.json']
   schedule:
     - cron: '17 5 1 * *'
-    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       refresh_data:
